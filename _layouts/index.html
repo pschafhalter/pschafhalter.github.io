@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body>
+    {% include navbar.html %}
+    <div class="wrapper">
+        <div class="profile-box">
+            <img src="/assets/pictures/profile.png" alt="Picture of Peter">
+            <div class="profile-social-icons">
+                {% for item in site.data.socials %}
+                <a class="profile-social-icon" href="{{ item.url }}">
+                    <img src="{{ item.icon }}" alt="{{ item.title }}">
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        {{ content }}
+    </div>
+</body>
+
+</html>

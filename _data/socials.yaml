@@ -1,0 +1,12 @@
+- title: Email
+  url: mailto:pschafhalter@berkeley.edu
+  icon: /assets/icons/email.svg
+- title: Github
+  url: https://github.com/pschafhalter/
+  icon: /assets/icons/github.png
+- title: Twitter
+  url: https://twitter.com/pschafhalter
+  icon: /assets/icons/twitter.svg
+- title: LinkedIn
+  url: https://www.linkedin.com/in/pschafhalter/
+  icon: /assets/icons/linkedin.png
