@@ -8,6 +8,7 @@ where I'm advised by
 [Professor Ion Stoica](https://people.eecs.berkeley.edu/~istoica/)
 and
 [Professor Joseph Gonzalez](https://people.eecs.berkeley.edu/~jegonzal/).
+
 I'm interested in how techniques from computer systems can make
 self-driving cars safer and more reliable.
 To that effect, I've helped build 2 open-source software projects:
