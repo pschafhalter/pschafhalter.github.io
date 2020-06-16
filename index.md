@@ -23,4 +23,4 @@ Previously, I contributed to several successful open-source projects:
 
 ## Talks
 
-[Scaling Emerging AI Applications with Ray.](https://qcon.ai/qconai2019/presentation/scaling-emerging-ai-applications-ray) QCon.ai SF 2019.
+[Scaling Emerging AI Applications with Ray.](https://www.infoq.com/presentations/scale-ai-ray/) QCon.ai SF 2019.
