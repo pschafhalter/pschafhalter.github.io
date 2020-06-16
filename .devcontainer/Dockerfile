@@ -21,7 +21,7 @@ RUN apk update && apk add \
     # pushing to git via ssh
     openssh \
     # permissions to install packages
-    sudo \  
+    sudo \
     # tab completion inside the container
     git-bash-completion
 
