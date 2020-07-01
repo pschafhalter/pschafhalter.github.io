@@ -3,6 +3,10 @@
 
 @import constants
 
+// Prevent navbar from jumping due to scrollbar.
+html
+    margin-left: calc(100vw - 100%)
+
 body
     margin: 0
     background-color: #fafafa
@@ -16,6 +20,9 @@ body
     margin: auto auto
     padding-left: 50px
     padding-right: 50px
+
+.wrapper-text
+    margin-top: 2em
 
 a
     color: darkblue

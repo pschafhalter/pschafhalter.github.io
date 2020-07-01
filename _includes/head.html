@@ -8,4 +8,10 @@
   <!--Imports-->
   <link rel="stylesheet" type="text/css" href="/css/site.css">
   <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+  {% for stylesheet in page.stylesheets %}
+  <link rel="stylesheet" type="text/css" href="{{ stylesheet }}">
+  {% endfor %}
+  {% for stylesheet in include.stylesheets %}
+  <link rel="stylesheet" type="text/css" href="{{ stylesheet }}">
+  {% endfor %}
 </head>

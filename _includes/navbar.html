@@ -5,7 +5,13 @@
     </div>
     {% for item in site.data.navigation %}
     <div class="navbar-item">
-      <a href="{{ item.url }}">{{ item.title }}</a>
+      {% if page.title == item.title %}
+      <b>
+        {% endif %}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+        {% if page.title == item.title %}
+      </b>
+      {% endif %}
     </div>
     {% endfor %}
   </div>
