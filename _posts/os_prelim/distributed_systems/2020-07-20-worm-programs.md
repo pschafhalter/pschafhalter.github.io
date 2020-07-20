@@ -1,5 +1,5 @@
 ---
-title: "Notes on \"The \"Worm\" Programs—Early Experience with a Distributed Computation"
+title: "Notes on \"The 'Worm' Programs—Early Experience with a Distributed Computation\""
 layout: post_prelim
 categories:
     - OS Prelim
