@@ -46,6 +46,8 @@ The clock condition is satisfied if the following conditions hold:
      1. If event $$a$$ is the sending of a message $$m$$ by process $$P_i$$, then $$m$$ contains a timestamp $$T_m = C_i \langle a \rangle$$.
      2. Upon receiving $$m$$, process $$P_j$$ sets $$C_j$$ greater than or equal to its present value and greater than $$T_m$$.
 
+![Events separated by tick lines.](/assets/pictures/posts/os_prelim/ordering_of_events.png)
+
 ## Total Ordering
 
 Use the above system and break ties using an arbitrary total ordering of the processes.
