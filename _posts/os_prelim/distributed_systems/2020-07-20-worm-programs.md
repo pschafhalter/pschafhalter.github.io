@@ -9,7 +9,6 @@ paper_authors:
     - Jon A. Hupp
 year: 1982
 venue: ACM
-mathjax: true
 ---
 
 An innocent and naïve paper describing with wonder and enthusiasm Xerox Palo Alto Research Center's work with computer worms.
