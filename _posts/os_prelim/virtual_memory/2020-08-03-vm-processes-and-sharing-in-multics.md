@@ -11,8 +11,8 @@ year: 1968
 venue: ACM
 ---
 
-MULTICS is designed to serve many users operating the system from remote terminals.
-To effectively serve its users, MULTICS had 3 main goals:
+Multics is designed to serve many users operating the system from remote terminals.
+To effectively serve its users, Multics had 3 main goals:
 
 1. Provide a large machine-independent virtual memory to simplify information transfer and make programs independent of the types of storage devices available.
 2. Programming generality such as calling other procedures by symbolic name without knowledge of storage devices available.
@@ -28,7 +28,7 @@ Procedure segments that are nonself-modifying are considered *pure procedures*.
 Segments replace files; the *directory structure* associates at least one symbolic name with each segment.
 Symbolic names are invariant over all processes.
 
-![Virtual memory in a MUTLICS process.](/assets/pictures/posts/os_prelim/multics_directory_vm.png)
+![Virtual memory in a Multics process.](/assets/pictures/posts/os_prelim/multics_directory_vm.png)
 
 ### Addressing
 
@@ -49,7 +49,7 @@ void* data_address = desired_segment_address + word_number;
 
 ![Addressing by generalized address.](/assets/pictures/posts/os_prelim/multics_addressing.png)
 
-MULTICS supports *paging* for segments by providing the illusion of contiguous memory even if a segment consists of noncontiguous blocks of memory.
+Multics supports *paging* for segments by providing the illusion of contiguous memory even if a segment consists of noncontiguous blocks of memory.
 Paging is desirable for large segments and is implemented via page tables stored in RAM.
 
 ### Intersegment Linking and Addressing
@@ -61,7 +61,7 @@ Proper intersegment addressing has the following properties:
 2. A process must be able to call a routine simply by invoking its symbolic name. As a consequence, invoked subroutines must be able to provide space for its data, reference any needed data object, and call on further routines that may be unknown to the caller.
 3. Segments of procedure must be invariant to the recompilation of other segments. This means that identifiers for addresses inside segments that change on recompilation must not appear in the content of any other segment.
 
-Due to (1), MULTICS provides a mechanism for making a segment *known* to a process (i.e. assigning a segment number upon the first use of a segment's symbolic name).
+Due to (1), Multics provides a mechanism for making a segment *known* to a process (i.e. assigning a segment number upon the first use of a segment's symbolic name).
 This requires linking as the the system cannot safely assign a unique segment number to shared segments, and looking up a segment by symbolic name is expensive.
 Thus, each procedure has an associated linkage section.
 Upon the first lookup of a symbolic name, the application traps and the system finds and sets the link data to the symbolic name's generalized address.
@@ -86,5 +86,5 @@ Calling and returning from procedures follows a fairly standard [calling convent
 Introduces segmented virtual memory, and explains a scheme to allow sharing data and procedures.
 Eliminates the need for a file system, allowing a uniform, simple way to access memory.
 Reliance on resizable segments as opposed to pages may allow for more efficient memory utilization.
-While segmentation and paging are complimentary in MULTICS, ultimately modern systems use paged virtual memory.
+While segmentation and paging are complimentary in Multics, ultimately modern systems use paged virtual memory.
 This is likely due to performance overhead of paging and hardware support for virtual memory.
