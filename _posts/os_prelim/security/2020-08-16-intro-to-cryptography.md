@@ -99,7 +99,7 @@ To solve this, $$A$$ can send $$E_B(S) = E_B(D_A(M))$$ so that only B can recove
    - Check $$n$$ by conducting a frequency count on every $$n$$th ciphertext letter, and see if the distribution is similar to that of an alphabet. Then solve as $$n$$ different substitutions.
 4. *Running key cipher*. Use a known passage of text as a key (e.g. from a book). Encode each character in both the message and the passage as numbers using A=0, B=1, etc. and add the vectors together mod 26.
    - Vulnerable by probing probable words in the plaintext to obtain the cipher.
-   - Can also apply the probabilities of plaintext-key letter pairs. This can be strengthened by enciphering with additional running keys. Because English is 75\% redundant, encoding with 4 running keys should be secure against all attacks.
+   - Can also apply the probabilities of plaintext-key letter pairs. This can be strengthened by enciphering with additional running keys. Because English is 75% redundant, encoding with 4 running keys should be secure against all attacks.
    - Rarely used due to inexpensive, more easily used electronic techniques.
 5. *Codes*. Operates on larger linguistic units of the plaintext (e.g. matching words and phrases with corresponding groups of letters and numbers called codegroups).
    - More difficult because more bits in the key, less redundancy, and large blocks of plaintext conceal local information.

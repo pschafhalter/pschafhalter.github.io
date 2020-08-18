@@ -13,8 +13,8 @@ venue: ACM
 mathjax: true
 ---
 
-This paper discusses protection of segment-based virual memory as found in Multics.
-Read, write, and execute permissions are set on a per-process basis and recorded in a process's segment descriptor words.
+This paper discusses protection of segment-based virtual memory as found in Multics.
+Read, write, and execute permissions are set based on the access level of the process and recorded in the segment descriptor words.
 Flags corresponding to these permissions are checked by hardware upon each reference.
 
 ## Judging the Usefulness of a Memory Protection Scheme

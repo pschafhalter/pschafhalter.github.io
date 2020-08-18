@@ -11,7 +11,7 @@ year: 1972
 venue: ACM
 ---
 
-While ["Virtual Memory, Processes, and sharing in MULTICS"]({% post_url 2020-08-03-vm-processes-and-sharing-in-multics %})
+While ["Virtual Memory, Processes, and sharing in MULTICS"]({% post_url /os_prelim/virtual_memory/2020-08-03-vm-processes-and-sharing-in-multics %})
 explored the details of how Multics' segmented virtual memory works, this paper focuses on how users interact with segments and how Multics implements virtual memory using the Supervisor.
 The paper motivates Multics' approach to segmented memory by comparing against several other systems:
 
