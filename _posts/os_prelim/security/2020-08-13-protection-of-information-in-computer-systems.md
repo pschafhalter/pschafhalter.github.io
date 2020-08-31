@@ -107,8 +107,6 @@ They have certain privileges, and any user in that group gains the group's privi
 Groups are an abstraction for when listing every user might be inconvenient/inefficient (e.g. the list of allowed users is long or changes frequently).
 Groups still exist in [Linux](https://wiki.archlinux.org/index.php/Users_and_groups).
 
-`samantha.groves is not in the sudoers file. This incident will be reported.`
-
 ## Changing Access Control Lists
 
 The authors suggest 2 ways of managing the authority to change access control lists:
