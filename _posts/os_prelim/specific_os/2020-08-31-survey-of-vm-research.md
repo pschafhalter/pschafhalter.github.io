@@ -96,7 +96,7 @@ Due to the high degree of isolation, errors in one VM's OS will not affect anoth
 A key insight is that the VMM is likely to be correct since it's a small program with limited functionality that can be checked.
 
 **Data security.**
-VM isolation offers better security over rnuning programs in the same OS.
+VM isolation offers better security over running programs in the same OS.
 
 ## Takeaways
 
