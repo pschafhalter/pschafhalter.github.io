@@ -15,7 +15,7 @@ self-driving cars safer and more reliable.
 To that effect, I've helped build 2 open-source software projects:
 - [ERDOS](https://github.com/erdos-project/erdos/) is a dataflow system
 for building self-driving car and robotics applications.
-- [Pylot](https://github.com/erdos-project/pylot/) is a self-driving car
+- [Pylot](https://github.com/erdos-project/pylot/) is a modular self-driving car
 platform that runs on both real cars and in simulation.
 
 Previously, I contributed to several successful open-source projects:
