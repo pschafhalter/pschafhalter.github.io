@@ -33,7 +33,7 @@ For example, each user might be assigned a certain number of tickets, forming a 
 Each user might then distribute a different amounts of tickets to applications forming several intra-user currencies.
 Conversions between the inter-user and intra-user currencies occur based on the user's share of the inter-user currency and an application's share of its intra-user currency. This allows each user to independently control properties of its currency (e.g. inflation, number of tickets) while allowing ticket transfers between different users' applications.
 
-![Figure 3: Currencies](/assets/pictures/posts/os_prelim/lottery_scheduling_currencies.png)
+![Figure 3: Currencies](/data/pictures/posts/os_prelim/lottery_scheduling_currencies.png)
 
 ## Takeaways
 

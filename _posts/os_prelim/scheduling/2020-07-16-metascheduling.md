@@ -72,7 +72,7 @@ l(m_i) &= a_i + w(a_i) / R \\
 
 Using these equations, the paper establishes proofs and bounds over sequences of sessions.
 
-![Graph of workahead and arrival times.](/assets/pictures/posts/os_prelim/meta_scheduling_arrival_times.png)
+![Graph of workahead and arrival times.](/data/pictures/posts/os_prelim/meta_scheduling_arrival_times.png)
 
 ## CPU scheduling
 

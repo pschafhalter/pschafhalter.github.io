@@ -31,7 +31,7 @@ The system data segment is protected from the user process.
 
 The process table contains 1 entry per process, and stores data needed when  the process is not active (e.g. name, location of segments, scheduling information).
 
-![Unix process control data structure](/assets/pictures/posts/os_prelim/unix_process_control_data_structure.png)
+![Unix process control data structure](/data/pictures/posts/os_prelim/unix_process_control_data_structure.png)
 
 Processes are created using `fork`.
 Copies of all writeable data segments are made for the child process.

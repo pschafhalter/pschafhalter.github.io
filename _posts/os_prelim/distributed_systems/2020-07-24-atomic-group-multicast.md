@@ -26,7 +26,7 @@ Process groups can be organized in different ways:
 3. In a *diffusion group*, clients passively receive messages from servers, which multicast to all clients and servers.
 4. A *hierarchical group*, is a tree-structured set of groups where the *root group* maps connections to appropriate subgroups.
 
-![Types of process groups.](/assets/pictures/posts/os_prelim/atomic_group_multicast_process_groups.png)
+![Types of process groups.](/data/pictures/posts/os_prelim/atomic_group_multicast_process_groups.png)
 
 The paper describes the implementation of ABCAST and CBCAST, along with proofs and caveats.
 The implementation relies on [vector clocks](https://en.wikipedia.org/wiki/Vector_clock) which are reset during changes to the group (e.g. failures).

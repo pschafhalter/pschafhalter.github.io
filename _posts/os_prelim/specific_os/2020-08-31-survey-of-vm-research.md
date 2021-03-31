@@ -20,7 +20,7 @@ Only the *privileged software nucleus* (kernel, supervisor) could run privileged
 User programs accessed privileged functions through supervisory calls (syscalls), and only 1 such nucleus could run at a time.
 As a result, it's not possible to run other OSs, certain diagnostics programs, or any software that requires access to the bare machine interface.
 
-![Virtual machine organization](/assets/pictures/posts/os_prelim/vm_organization.png)
+![Virtual machine organization](/data/pictures/posts/os_prelim/vm_organization.png)
 
 The Virtual Machine Monitor (VMM) transforms the single machine interface into the illusion of many, allowing many OSs to run concurrently.
 In other words, a VM provides an efficient, isolated replica of the computer system's environment which can be multiplexed with other VMs on the same hardware.
