@@ -22,6 +22,11 @@ Previously, I contributed to several successful open-source projects:
 - [Ray](https://ray.io/) is a popular framework for developing distributed applications.
 - [Modin](http://modin.org/) scales pandas workflows to terabytes.
 
+## Publications
+
+[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](/data/papers/2021-icra-pylot.pdf).
+Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.*
+
 ## Talks
 
-[Scaling Emerging AI Applications with Ray.](https://www.infoq.com/presentations/scale-ai-ray/) QCon.ai SF 2019.
+[Scaling Emerging AI Applications with Ray.](https://www.infoq.com/presentations/scale-ai-ray/) *QCon.ai San Francisco 2019*.
