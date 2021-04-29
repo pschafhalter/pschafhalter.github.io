@@ -27,6 +27,8 @@ Previously, I contributed to several successful open-source projects:
 [Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](https://arxiv.org/abs/2104.07830).
 Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.*
 
+\* These authors have made equal contributions.
+
 ## Talks
 
 [Scaling Emerging AI Applications with Ray.](https://www.infoq.com/presentations/scale-ai-ray/) *QCon.ai San Francisco 2019*.
