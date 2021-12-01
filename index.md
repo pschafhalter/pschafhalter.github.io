@@ -24,8 +24,11 @@ Previously, I contributed to several successful open-source projects:
 
 ## Publications
 
-[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](https://arxiv.org/abs/2104.07830).
-Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.*
+[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](https://arxiv.org/abs/2104.07830). \
+Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.* \
+\[[code](https://github.com/erdos-project/pylot/)\]
+\[[video](https://www.youtube.com/watch?v=VlwhU0k5cmQ)\]
+\[[website](https://pylot.readthedocs.io/)\]
 
 \* These authors have made equal contributions.
 
