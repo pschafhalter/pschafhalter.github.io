@@ -24,6 +24,10 @@ Previously, I contributed to several successful open-source projects:
 
 ## Publications
 
+[D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles](/). \
+Ionel Gog, Sukrit Kalra, Peter Schafhalter, Joseph E. Gonzalez, Ion Stoica. *EuroSys 2022 (to appear).* \
+\[[code](https://github.com/erdos-project/erdos/)\]
+
 [Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](https://arxiv.org/abs/2104.07830). \
 Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.* \
 \[[code](https://github.com/erdos-project/pylot/)\]
