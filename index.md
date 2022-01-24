@@ -13,12 +13,14 @@ and
 I'm interested in how techniques from computer systems can make
 self-driving cars safer and more reliable.
 To that effect, I've helped build 2 open-source software projects:
+
 - [ERDOS](https://github.com/erdos-project/erdos/) is a dataflow system
 for building self-driving car and robotics applications.
 - [Pylot](https://github.com/erdos-project/pylot/) is a modular self-driving car
 platform that runs on both real cars and in simulation.
 
 Previously, I contributed to several successful open-source projects:
+
 - [Ray](https://ray.io/) is a popular framework for developing distributed applications.
 - [Modin](http://modin.org/) scales pandas workflows to terabytes.
 
@@ -28,11 +30,12 @@ Previously, I contributed to several successful open-source projects:
 Ionel Gog, Sukrit Kalra, Peter Schafhalter, Joseph E. Gonzalez, Ion Stoica. *EuroSys 2022 (to appear).* \
 \[[code](https://github.com/erdos-project/erdos/)\]
 
-[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](https://arxiv.org/abs/2104.07830). \
+[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](https://ieeexplore.ieee.org/document/9561747). \
 Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.* \
 \[[code](https://github.com/erdos-project/pylot/)\]
 \[[video](https://www.youtube.com/watch?v=VlwhU0k5cmQ)\]
 \[[website](https://pylot.readthedocs.io/)\]
+\[[arxiv](https://arxiv.org/abs/2104.07830)]
 
 \* These authors have made equal contributions.
 
