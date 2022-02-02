@@ -31,7 +31,8 @@ Ionel Gog, Sukrit Kalra, Peter Schafhalter, Joseph E. Gonzalez, Ion Stoica. *Eur
 \[[code](https://github.com/erdos-project/erdos/)\]
 
 [Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](https://ieeexplore.ieee.org/document/9561747). \
-Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.* \
+Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.*
+**Best Unmanned Aerial Vehicles paper award finalist.** \
 \[[code](https://github.com/erdos-project/pylot/)\]
 \[[video](https://www.youtube.com/watch?v=VlwhU0k5cmQ)\]
 \[[website](https://pylot.readthedocs.io/)\]
