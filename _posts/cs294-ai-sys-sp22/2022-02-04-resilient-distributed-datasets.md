@@ -2,7 +2,7 @@
 title: "Notes on \"Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing\""
 layout: post
 categories:
-    - AISys Spring 2022
+    - cs294-ai-sys-sp22
 paper_authors:
     - Matei Zaharia
     - Mosharaf Chowdhury
