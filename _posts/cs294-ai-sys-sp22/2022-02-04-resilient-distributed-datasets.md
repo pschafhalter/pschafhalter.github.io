@@ -72,9 +72,9 @@ running backup copies of slow tasks.
    1. Often, after carefully reading these sections, I feel that I have a reasonable understanding of what the paper is about, and that I could participate in a high-level discussion.
    2. E.g., almost all of the paper summary is taken from §1 and §2.
 2. **Understand what questions the remaining sections are trying to address.**
-   1. The design sections (§3 and §4) provide answers to questions such as: *How do I use the system?* *What properties does the system exhibit?* *Why were certain design decisions made?*
-   2. For the implementation section (§5), ask yourself *How do the key ideas of the paper translate into software?* *Is this a reasonable way of building the system?*
-   3. Typically, a lot of work is put into evaluation (§6), and there can be a lot going on. Look at the plots, and ask yourself if they support the key claims, and provide suitable and sufficient comparisons. Often, the authors will include follow-up experiments to explain why the results look the way they do, and that performance improvements can be attributed to the key ideas of the paper.
+   1. The **design sections** (§3 and §4) provide answers to questions such as: *How do I use the system?* *What properties does the system exhibit?* *Why were certain design decisions made?*
+   2. For the **implementation section** (§5), ask yourself *How do the key ideas of the paper translate into software?* *Is this a reasonable way of building the system?*
+   3. Typically, a lot of work is put into **evaluation** (§6), and there can be a lot going on. Look at the plots, and ask yourself if they support the key claims, and provide suitable and sufficient comparisons. Often, the authors will include follow-up experiments to explain why the results look the way they do, and that performance improvements can be attributed to the key ideas of the paper.
       1. For example, I'm not convinced that distributed shared memory is a suitable comparison system, because several other systems, which seem like better points of comparison, already use coarse-grained transformations.
       2. Comparing against other systems in addition to Hadoop would strengthen the evaluation.
       3. §6.1 and Figure 9 describe follow-up experiments which explain why Spark outperforms Hadoop by 20x on key experiments.
