@@ -3,8 +3,6 @@ title: "Notes on \"Resilient Distributed Datasets: A Fault-Tolerant Abstraction 
 layout: post
 categories:
     - AISys Spring 2022
-    - Big data
-    - systems
 paper_authors:
     - Matei Zaharia
     - Mosharaf Chowdhury
