@@ -26,16 +26,17 @@ Previously, I contributed to several successful open-source projects:
 
 ## Publications
 
-[D<sup>3</sup>: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles](/). \
-Ionel Gog, Sukrit Kalra, Peter Schafhalter, Joseph E. Gonzalez, Ion Stoica. *EuroSys 2022 (to appear).* \
-\[[code](https://github.com/erdos-project/erdos/)\]
+[D<sup>3</sup>: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles](/data/papers/2022-eurosys-d3.pdf). \
+Ionel Gog, Sukrit Kalra, Peter Schafhalter, Joseph E. Gonzalez, Ion Stoica. *EuroSys 2022.* \
+\[[code](https://github.com/erdos-project/erdos/)\] \[[acm](https://doi.org/10.1145/3492321.3519576)]
 
-[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](https://ieeexplore.ieee.org/document/9561747). \
+[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](/data/papers/2021-icra-pylot.pdf). \
 Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.*
 **Best Unmanned Aerial Vehicles paper award finalist.** \
 \[[code](https://github.com/erdos-project/pylot/)\]
 \[[video](https://www.youtube.com/watch?v=VlwhU0k5cmQ)\]
 \[[website](https://pylot.readthedocs.io/)\]
+\[[ieee](https://doi.org/10.1109/ICRA48506.2021.9561747)]
 \[[arxiv](https://arxiv.org/abs/2104.07830)]
 
 \* These authors have made equal contributions.
