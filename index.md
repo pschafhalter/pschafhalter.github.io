@@ -26,7 +26,7 @@ Previously, I contributed to several successful open-source projects:
 
 ## Publications
 
-[D<sup>3</sup>: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles](/data/papers/2022-eurosys-d3.pdf). \
+[D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles](/data/papers/2022-eurosys-d3.pdf). \
 Ionel Gog, Sukrit Kalra, Peter Schafhalter, Joseph E. Gonzalez, Ion Stoica. *EuroSys 2022.* \
 \[[code](https://github.com/erdos-project/erdos/)\] \[[acm](https://doi.org/10.1145/3492321.3519576)]
 
