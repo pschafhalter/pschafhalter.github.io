@@ -43,6 +43,8 @@ Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. G
 
 ## Talks
 
+[D3: A Dynamic Deadline-Driven Approach for Building AVs.](/) *EuroSys 2022*.
+
 [D<sup>3</sup>: A Dynamic Deadline-Driven Approach for Building AVs.](https://youtu.be/NG3U9rE8QcE) *RISELab/Sky 2022 Winter Retreat*.
 \[[slides](https://drive.google.com/file/d/1_srYqYek0LlJ6nbCpJr9fvDElJ81R9qc/view?usp=sharing)\]
 
