@@ -43,9 +43,12 @@ Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. G
 
 ## Talks
 
+[Building Autonomous Vehicles: From the Road to the Sky.](/) *Sky 2022 Summer Retreat*. \
+\[[slides](https://docs.google.com/presentation/d/1lxZq0hFuDlrsf06rDqNXDbkOsH-K7IvS)\]
+
 [D3: A Dynamic Deadline-Driven Approach for Building AVs.](/) *EuroSys 2022*.
 
-[D<sup>3</sup>: A Dynamic Deadline-Driven Approach for Building AVs.](https://youtu.be/NG3U9rE8QcE) *RISELab/Sky 2022 Winter Retreat*.
+[D<sup>3</sup>: A Dynamic Deadline-Driven Approach for Building AVs.](https://youtu.be/NG3U9rE8QcE) *RISE/Sky 2022 Winter Retreat*. \
 \[[slides](https://drive.google.com/file/d/1_srYqYek0LlJ6nbCpJr9fvDElJ81R9qc/view?usp=sharing)\]
 
 [Scaling Emerging AI Applications with Ray.](https://www.infoq.com/presentations/scale-ai-ray/) *QCon.ai San Francisco 2019*.
