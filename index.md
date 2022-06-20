@@ -43,7 +43,7 @@ Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. G
 
 ## Talks
 
-[Building Autonomous Vehicles: From the Road to the Sky.](/) *Sky 2022 Summer Retreat*. \
+[Building Autonomous Vehicles: From the Road to the Sky.](https://youtu.be/sksQWdXTY5Y) *Sky 2022 Summer Retreat*. \
 \[[slides](https://docs.google.com/presentation/d/1lxZq0hFuDlrsf06rDqNXDbkOsH-K7IvS)\]
 
 [D3: A Dynamic Deadline-Driven Approach for Building AVs.](/) *EuroSys 2022*.
