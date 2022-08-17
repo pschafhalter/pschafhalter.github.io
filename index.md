@@ -26,6 +26,10 @@ Previously, I contributed to several successful open-source projects:
 
 ## Publications
 
+[Context-Aware Streaming Perception in Dynamic Environments](https://arxiv.org/pdf/2208.07479). \
+Gur-Eyal Sela, Ionel Gog, Justin Wong, Kumar Krishna Agrawal, Xiangxi Mo, Sukrit Kalra, Peter Schafhalter, Eric Leong, Xin Wang, Bharathan Balaji, Joseph Gonzalez, Ion Stoica. *ECCV 2022.* \
+\[[arxiv](https://arxiv.org/abs/2208.07479)\]
+
 [D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles](/data/papers/2022-eurosys-d3.pdf). \
 Ionel Gog, Sukrit Kalra, Peter Schafhalter, Joseph E. Gonzalez, Ion Stoica. *EuroSys 2022.* \
 \[[code](https://github.com/erdos-project/erdos/)\] \[[acm](https://doi.org/10.1145/3492321.3519576)]
@@ -36,8 +40,8 @@ Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. G
 \[[code](https://github.com/erdos-project/pylot/)\]
 \[[video](https://www.youtube.com/watch?v=VlwhU0k5cmQ)\]
 \[[website](https://pylot.readthedocs.io/)\]
-\[[ieee](https://doi.org/10.1109/ICRA48506.2021.9561747)]
-\[[arxiv](https://arxiv.org/abs/2104.07830)]
+\[[ieee](https://doi.org/10.1109/ICRA48506.2021.9561747)\]
+\[[arxiv](https://arxiv.org/abs/2104.07830)\]
 
 \* These authors have made equal contributions.
 
