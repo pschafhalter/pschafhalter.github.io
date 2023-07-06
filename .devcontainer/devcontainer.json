@@ -1,36 +1,37 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
-    "name": "Github Pages",
-    "dockerFile": "Dockerfile",
-    "context": "../",
-    "runArgs": [
-        "-u",
-        "jekyll",
-        "-v",
-        "${env:HOME}${env:USERPROFILE}/.ssh:/root/.ssh-localhost:ro"
-    ],
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "appPort": [
-        4000
-    ],
-    "postCreateCommand": "sudo cp -r /root/.ssh-localhost ~ && sudo chown -R $(id -u):$(id -g) ~/.ssh-localhost && mv ~/.ssh-localhost ~/.ssh && chmod 700 ~/.ssh && chmod 600 ~/.ssh/*",
-    "extensions": [
-        // yaml for data files
-        "redhat.vscode-yaml",
-        // liquid templating syntax highlighting
-        "sissel.shopify-liquid",
-        // jekyll
-        "ginfuru.ginfuru-vscode-jekyll-syntax",
-        "ginfuru.vscode-jekyll-snippets",
-        // markdown
-        "yzhang.markdown-all-in-one",
-        "davidanson.vscode-markdownlint",
-        // html/css
-        "ecmel.vscode-html-css",
-        "aeschli.vscode-css-formatter",
-        // editing
-        "streetsidesoftware.code-spell-checker",
-        "ms-vscode.wordcount"
-    ]
+	"name": "Jekyll",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/jekyll:1-bullseye",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		4000
+	],
+	// Uncomment the next line to run commands after the container is created.
+	// "postCreateCommand": "jekyll --version"
+	// Configure tool-specific properties.
+	// "customizations": {},
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+	"customizations/vscode/extensions": [
+		// yaml for data files
+		"redhat.vscode-yaml",
+		// liquid templating syntax highlighting
+		"sissel.shopify-liquid",
+		// jekyll
+		"ginfuru.ginfuru-vscode-jekyll-syntax",
+		"ginfuru.vscode-jekyll-snippets",
+		// markdown
+		"yzhang.markdown-all-in-one",
+		"davidanson.vscode-markdownlint",
+		// html/css
+		"ecmel.vscode-html-css",
+		"aeschli.vscode-css-formatter",
+		// editing
+		"streetsidesoftware.code-spell-checker",
+		"ms-vscode.wordcount"
+	]
 }
