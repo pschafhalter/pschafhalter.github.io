@@ -10,3 +10,6 @@
 - title: LinkedIn
   url: https://www.linkedin.com/in/pschafhalter/
   icon: /data/icons/linkedin.png
+- title: Google Scholar
+  url: https://scholar.google.com/citations?user=HhCZteMAAAAJ
+  icon: /data/icons/google_scholar.svg
