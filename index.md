@@ -26,6 +26,9 @@ Previously, I contributed to several successful open-source projects:
 
 ## Publications
 
+[Leveraging Cloud Computing to Make Autonomous Vehicles Safer](/data/papers/2023-iros-cloud-av-safety.pdf). \
+Peter Schafhalter, Sukrit Kalra, Le Xu, Joseph E. Gonzalez, Ion Stoica. *IROS 2023 (to appear).*
+
 [Context-Aware Streaming Perception in Dynamic Environments](https://arxiv.org/pdf/2208.07479). \
 Gur-Eyal Sela, Ionel Gog, Justin Wong, Kumar Krishna Agrawal, Xiangxi Mo, Sukrit Kalra, Peter Schafhalter, Eric Leong, Xin Wang, Bharathan Balaji, Joseph Gonzalez, Ion Stoica. *ECCV 2022.* \
 \[[arxiv](https://arxiv.org/abs/2208.07479)\]
