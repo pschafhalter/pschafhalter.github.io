@@ -10,6 +10,8 @@ where I'm advised by
 and
 [Professor Joseph Gonzalez](https://people.eecs.berkeley.edu/~jegonzal/).
 
+I'm currently interning at [Google Deepmind](https://www.deepmind.com/).
+
 I'm interested in how techniques from computer systems can make
 self-driving cars safer and more reliable.
 To that effect, I've helped build 2 open-source software projects:
