@@ -30,6 +30,9 @@ Previously, I contributed to several successful open-source projects:
 
 [Leveraging Cloud Computing to Make Autonomous Vehicles Safer](/data/papers/2023-iros-cloud-av-safety.pdf). \
 Peter Schafhalter, Sukrit Kalra, Le Xu, Joseph E. Gonzalez, Ion Stoica. *IROS 2023 (to appear).* \
+\[[video](https://youtu.be/X3VuA_Tt064)\]
+\[[slides](/data/documents/iros-2023/2023-iros-cloud-avs-slides.pdf)\]
+\[[poster](/data/documents/iros-2023/2023-iros-cloud-avs-poster.pdf)\]
 \[[arxiv](https://arxiv.org/abs/2308.03204)]
 
 [Context-Aware Streaming Perception in Dynamic Environments](https://arxiv.org/pdf/2208.07479). \
