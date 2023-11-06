@@ -29,7 +29,7 @@ Previously, I contributed to several successful open-source projects:
 ## Publications
 
 [Leveraging Cloud Computing to Make Autonomous Vehicles Safer](/data/papers/2023-iros-cloud-av-safety.pdf). \
-Peter Schafhalter, Sukrit Kalra, Le Xu, Joseph E. Gonzalez, Ion Stoica. *IROS 2023 (to appear).* \
+Peter Schafhalter, Sukrit Kalra, Le Xu, Joseph E. Gonzalez, Ion Stoica. *IROS 2023.* \
 \[[video](https://youtu.be/X3VuA_Tt064)\]
 \[[slides](/data/documents/iros-2023/2023-iros-cloud-avs-slides.pdf)\]
 \[[poster](/data/documents/iros-2023/2023-iros-cloud-avs-poster.pdf)\]
@@ -65,3 +65,9 @@ Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. G
 \[[slides](https://drive.google.com/file/d/1_srYqYek0LlJ6nbCpJr9fvDElJ81R9qc/view?usp=sharing)\]
 
 [Scaling Emerging AI Applications with Ray.](https://www.infoq.com/presentations/scale-ai-ray/) *QCon.ai San Francisco 2019*.
+
+## Service
+
+Reviewer: [ICRA 2024](https://2024.ieee-icra.org/).
+
+Co-author of the revised [UC Berkeley EECS Operating Systems Preliminary Exam Syllabus](https://ucbosprelim.samkumar.org/) (2023).

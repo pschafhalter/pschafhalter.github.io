@@ -1,10 +1,10 @@
 all: build
 
 build:
-	jekyll build
+	bundle exec jekyll build
 
 clean:
-	jekyll clean
+	bundle exec jekyll clean
 
 serve:
-	jekyll serve
+	bundle exec jekyll serve
