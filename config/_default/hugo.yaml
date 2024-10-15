@@ -1,0 +1,35 @@
+baseURL: "https://pschafhalter.com/"
+languageCode: en-us
+title: Peter Schafhalter
+theme: peters-site
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+params:
+  math: true
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+    - name: Blog
+      url: /blog/
+      weight: 3
+    - name: Projects
+      url: /projects/
+      weight: 4
+    - name: Contact
+      url: /contact/
+      weight: 5

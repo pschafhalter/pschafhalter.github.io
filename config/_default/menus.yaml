@@ -1,0 +1,29 @@
+main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  - name: Blog
+    pageRef: /blog
+    weight: 20
+
+socials:
+  - name: Email
+    url: "mailto:pschafhalter@berkeley.edu"
+    params:
+      icon: email
+  - name: GitHub
+    url: "https://github.com/pschafhalter"
+    params:
+      icon: github
+  - name: Twitter
+    url: "https://twitter.com/pschafhalter"
+    params:
+      icon: twitter
+  - name: LinkedIn
+    url: "https://www.linkedin.com/in/pschafhalter/"
+    params:
+      icon: linkedin
+  - name: Google Scholar
+    url: "https://scholar.google.com/citations?user=HhCZteMAAAAJ"
+    params:
+      icon: google-scholar

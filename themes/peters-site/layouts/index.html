@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <div class="wrapper wrapper-text">
+    <div class="profile-box">
+      {{ $profile_pic := "https://picsum.photos/id/237/200/300" }}
+      {{ if .Param "profile_picture" }}
+      {{ $profile_pic = .Param "profile_picture" }}
+      {{ end }}
+      <img src="{{ $profile_pic }}" alt="Profile Picture">
+      <div class="profile-social-icons">
+        {{ range .Site.Menus.socials }}
+        <a class="profile-social-icon" href="{{ .URL }}">
+          {{ $icon := .Params.icon }}
+          {{ range readDir "themes/peters-site/static/icons" }}
+          {{ if eq $icon (path.BaseName .Name) }}
+          {{ $icon_path := print "/icons/" .Name }}
+          <img src="{{ $icon_path }}" alt="{{ $icon }}">
+          {{ end }}
+          {{ end }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+  {{ .Content }}
+  </div>
+{{ end }}
