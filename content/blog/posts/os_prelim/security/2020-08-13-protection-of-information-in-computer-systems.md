@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"The Protection of Information in Computer Systems\""
-layout: post_prelim
+date: 2020-08-13
 categories:
     - OS Prelim
     - Protection

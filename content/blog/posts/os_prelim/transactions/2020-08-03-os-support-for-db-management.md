@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"Operating System Support for Database Management\""
-layout: post_prelim
+date: 2020-08-03
 categories:
     - OS Prelim
     - Transactions

@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"Lightweight Causal and Atomic Group Multicast\""
-layout: post_prelim
+date: 2020-07-24
 categories:
     - OS Prelim
     - Distributed Systems

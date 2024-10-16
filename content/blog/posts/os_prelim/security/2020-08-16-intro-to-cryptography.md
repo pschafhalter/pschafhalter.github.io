@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"Privacy and Authentication: An Introduction to Cryptography\""
-layout: post_prelim
+date: 2020-08-16
 categories:
     - OS Prelim
     - Protection

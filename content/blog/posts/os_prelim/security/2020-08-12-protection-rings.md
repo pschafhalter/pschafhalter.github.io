@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"A Hardware Architecture for Implementing Protection Rings\""
-layout: post_prelim
+date: 2020-08-12
 categories:
     - OS Prelim
     - Protection

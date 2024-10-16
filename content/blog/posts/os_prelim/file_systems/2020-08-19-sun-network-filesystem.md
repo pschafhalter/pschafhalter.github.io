@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"Design and Implementation of the Sun Network Filesystem\""
-layout: post_prelim
+date: 2020-08-19
 categories:
     - OS Prelim
     - File systems
