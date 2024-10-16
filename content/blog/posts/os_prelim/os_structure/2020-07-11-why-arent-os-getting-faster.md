@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"Why Aren't Operating Systems Getting Faster As Fast as Hardware\""
-layout: post_prelim
+date: 2020-07-11
 categories:
     - OS Prelim
     - OS Structure

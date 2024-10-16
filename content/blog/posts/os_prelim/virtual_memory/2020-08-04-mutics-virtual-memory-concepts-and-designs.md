@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"The Multics Virtual Memory: Concepts and Design\""
-layout: post_prelim
+date: 2020-08-04
 categories:
     - OS Prelim
     - Virtual Memory

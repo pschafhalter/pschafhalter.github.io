@@ -1,8 +1,17 @@
 {{ define "main" }}
+<div class="wrapper wrapper-text">
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+  {{ range .Pages.GroupByDate "2006" }}
+  <!-- TODO: fix section link -->
+  <a href="#{{ .Key }}"><h2 id="{{ .Key }}">{{ .Key }}</h2></a>
+  <ul class="page-list">
+    {{ range .Pages }}
+    <li>
+      <b><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>{{ .Date | time.Format "Jan 2" }}</i>
+    </li>
+    {{ end }}
+  </ul>
   {{ end }}
+</div>
 {{ end }}

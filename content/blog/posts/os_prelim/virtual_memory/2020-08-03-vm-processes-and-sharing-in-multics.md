@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"Virtual Memory, Processes, and sharing in MULTICS\""
-layout: post_prelim
+date: 2020-08-03
 categories:
     - OS Prelim
     - Virtual Memory

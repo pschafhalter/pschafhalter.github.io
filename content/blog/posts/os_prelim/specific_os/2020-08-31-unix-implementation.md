@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"Unix Implementation\""
-layout: post_prelim
+date: 2020-08-31
 categories:
     - OS Prelim
     - Specific OSs

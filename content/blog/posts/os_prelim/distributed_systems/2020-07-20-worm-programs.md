@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"The 'Worm' Programs—Early Experience with a Distributed Computation\""
-layout: post_prelim
+date: 2020-07-20
 categories:
     - OS Prelim
     - Distributed Systems

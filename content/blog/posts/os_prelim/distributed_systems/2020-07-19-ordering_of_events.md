@@ -1,6 +1,6 @@
 ---
 title: "Notes on \"Time, Clocks, and the Ordering of Events in a Distributed System\""
-layout: post_prelim
+date: 2020-07-19
 categories:
     - OS Prelim
     - Distributed Systems
@@ -8,7 +8,7 @@ paper_authors:
     - Leslie Lamport
 year: 1978
 venue: ACM
-mathjax: true
+math: true
 ---
 
 Develops a partial ordering for events occurring in a distributed system based on logical time.
