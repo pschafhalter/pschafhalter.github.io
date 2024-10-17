@@ -2,10 +2,6 @@
 <meta name="viewport" content="width=device-width">
 {{ $style := resources.Get "sass/site.sass" | toCSS }}
 <link href="{{ $style.RelPermalink }}" rel="stylesheet">
-{{/*  {{ $fontawesome := resources.Get "fontawesome/css/all.css" }}  */}}
-<link href="/fontawesome/css/all.min.css" rel="stylesheet">
-{{/*  {{ $fontawesome_solid := resources.Get "fontawesome/css/solid.css" }}
-<link href="{{ $fontawesome_solid.RelPermalink }}" rel="stylesheet">  */}}
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
