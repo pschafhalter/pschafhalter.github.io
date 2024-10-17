@@ -8,7 +8,7 @@ paper_authors:
     - David P. Anderson
 year: 1993
 venue: ACM
-mathjax: true
+math: true
 ---
 
 Proposes a scheduling framework for *continuous media* (e.g. audio, video streams) which can guarantee performance across multiple stages.
