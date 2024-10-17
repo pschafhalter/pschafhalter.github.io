@@ -12,18 +12,54 @@ body
     font-size: 1.1em
     line-height: 1.5
 
-.wrapper
-    max-width: 800px
+.container
+    display: flex
+    flex-direction: row
+    justify-content: center
     margin: auto auto
     padding-left: 50px
     padding-right: 50px
 
+.main
+    flex-grow: 1
+    width: 80%
+    max-width: $content-max-width
+
 .wrapper-text
-    margin-top: 2em
+    margin-top: 0.5em
 
 a
     color: darkblue
 
-
 .page-list li
     margin-bottom: 10px
+
+.table-of-contents
+    max-width: 200px
+    align-self: start
+    position: sticky
+    margin-top: 3em
+    margin-left: 3em
+    flex-grow: 1
+    top: 3em
+    display: flex
+    flex-direction: column
+    h1
+        font-size: 1em
+        margin: 0em
+    ol
+        margin-top: 0.3em
+        list-style: none
+        padding-left: 0.5em
+        li
+            margin-top: 0.1em
+            margin-bottom: 0.1em
+            &:hover
+                text-decoration: underline
+            a
+                text-decoration: none
+                color: $text-color
+            span.active
+                visibility: visible
+            span
+                visibility: hidden
