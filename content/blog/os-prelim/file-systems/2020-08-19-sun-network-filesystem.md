@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Design and Implementation of the Sun Network Filesystem\""
 date: 2020-08-19
+aliases:
+    - /os prelim/file systems/2020/08/19/sun-network-filesystem.html
 categories:
     - OS Prelim
     - File systems

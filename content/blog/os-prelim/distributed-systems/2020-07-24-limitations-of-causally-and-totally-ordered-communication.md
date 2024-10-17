@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Understanding the Limitations of Causally and Totally Ordered Communication\""
 date: 2020-07-24
+aliases:
+   - /os prelim/distributed systems/2020/07/24/limitations-of-causally-and-totally-ordered-communication.html
 categories:
     - OS Prelim
     - Distributed Systems

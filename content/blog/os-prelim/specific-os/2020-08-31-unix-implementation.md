@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Unix Implementation\""
 date: 2020-08-31
+aliases:
+    - /os prelim/specific oss/2020/08/31/unix-implementation.html
 categories:
     - OS Prelim
     - Specific OSs

@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"The Impact of Operating System Structure on Memory System Performance\""
 date: 2020-07-13
+aliases:
+    - /os prelim/os structure/2020/07/13/impact-of-os-structure-on-memory.html
 categories:
     - OS Prelim
     - OS Structure

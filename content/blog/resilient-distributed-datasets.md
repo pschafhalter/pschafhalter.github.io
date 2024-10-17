@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing\""
 date: 2022-02-04
+aliases:
+    - /cs294-ai-sys-sp22/2022/02/04/resilient-distributed-datasets.html
 categories:
     - cs294-ai-sys-sp22
 paper_authors:

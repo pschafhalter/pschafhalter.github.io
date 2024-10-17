@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Operating System Support for Database Management\""
 date: 2020-08-03
+aliases:
+   - /os prelim/transactions/recovery/fault tolerance/2020/08/03/os-support-for-db-management.html
 categories:
     - OS Prelim
     - Transactions

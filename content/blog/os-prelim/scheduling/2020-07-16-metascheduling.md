@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Metascheduling for Continuous Media\""
 date: 2020-07-16
+aliases:
+    - /os prelim/scheduling/2020/07/16/metascheduling.html
 categories:
     - OS Prelim
     - Scheduling
