@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Survey of Virtual Machine Research\""
 date: 2020-08-31
+aliases:
+    - /os prelim/specific oss/2020/08/31/survey-of-vm-research.html
 categories:
     - OS Prelim
     - Specific OSs

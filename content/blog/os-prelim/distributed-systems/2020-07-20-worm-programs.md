@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"The 'Worm' Programs—Early Experience with a Distributed Computation\""
 date: 2020-07-20
+aliases:
+    - /os prelim/distributed systems/2020/07/20/worm-programs.html
 categories:
     - OS Prelim
     - Distributed Systems

@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"The Structure of the 'THE'-Multiprogramming System\""
 date: 2020-08-31
+aliases:
+    - /os prelim/specific oss/2020/08/31/the-multiprogramming-system.html
 categories:
     - OS Prelim
     - Specific OSs

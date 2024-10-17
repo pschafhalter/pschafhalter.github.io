@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"The Protection of Information in Computer Systems\""
 date: 2020-08-13
+aliases:
+   - /os prelim/protection/security/2020/08/13/protection-of-information-in-computer-systems.html
 categories:
     - OS Prelim
     - Protection

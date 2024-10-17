@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"The Multics Virtual Memory: Concepts and Design\""
 date: 2020-08-04
+aliases:
+    - /os prelim/virtual memory/2020/08/04/mutics-virtual-memory-concepts-and-designs.html
 categories:
     - OS Prelim
     - Virtual Memory

@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Time, Clocks, and the Ordering of Events in a Distributed System\""
 date: 2020-07-19
+aliases:
+   - /os prelim/distributed systems/2020/07/19/ordering_of_events.html
 categories:
     - OS Prelim
     - Distributed Systems

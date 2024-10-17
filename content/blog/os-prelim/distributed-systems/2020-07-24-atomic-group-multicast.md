@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Lightweight Causal and Atomic Group Multicast\""
 date: 2020-07-24
+aliases:
+    - /os prelim/distributed systems/2020/07/24/atomic-group-multicast.html
 categories:
     - OS Prelim
     - Distributed Systems

@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Virtual Memory, Processes, and sharing in MULTICS\""
 date: 2020-08-03
+aliases:
+    - /os prelim/virtual memory/2020/08/03/vm-processes-and-sharing-in-multics.html
 categories:
     - OS Prelim
     - Virtual Memory

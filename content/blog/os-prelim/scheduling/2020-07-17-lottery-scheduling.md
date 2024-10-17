@@ -1,6 +1,8 @@
 ---
 title: "Notes on \"Lottery Scheduling: Flexible Proportional-Share Resource Management\""
 date: 2020-07-17
+aliases:
+    - /os prelim/scheduling/2020/07/17/lottery-scheduling.html
 categories:
     - OS Prelim
     - Scheduling
