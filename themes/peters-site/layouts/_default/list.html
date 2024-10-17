@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div class="container">
+  <aside class="table-of-contents"></aside>
   <div class="main wrapper-text">
   <h1>{{ .Title }}</h1>
   {{ .Content }}
@@ -14,14 +15,14 @@
   </ul>
   {{ end }}
 </div>
-<aside class="table-of-contents">
+<nav class="table-of-contents">
   <h1>Table of Contents</h1>
   <ol>
     {{ range .Pages.GroupByDate "2006" }}
     <li><span>></span><a href="#{{ .Key }}">{{ .Key }}</a></li>
     {{ end }}
   </ol>
-</aside>
+</nav>
 <script>
 document.addEventListener("scroll", function() {
   const sections = document.querySelectorAll("h2[id]");
