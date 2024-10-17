@@ -4,7 +4,7 @@
   {{ .Content }}
   {{ range .Pages.GroupByDate "2006" }}
   <!-- TODO: fix section link -->
-  <a href="#{{ .Key }}"><h2 id="{{ .Key }}">{{ .Key }}</h2></a>
+  <h2 id="{{ .Key }}">{{ .Key }} {{ partial "heading_link.html" . }}</h2>
   <ul class="page-list">
     {{ range .Pages }}
     <li>

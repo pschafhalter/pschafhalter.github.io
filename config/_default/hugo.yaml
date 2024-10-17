@@ -15,7 +15,7 @@ markup:
             - - \(
               - \)
 params:
-  math: true
+  math: false
 menu:
   main:
     - name: Home

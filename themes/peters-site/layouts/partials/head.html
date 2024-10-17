@@ -1,16 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-{{/*  {{ $opts := dict "transpiler" "libsass" "targetPath" "css/site.css" }}
-{{ with resources.Get "assets/sass/home.sass" | toCSS $opts }}
-<link rel="stylesheet" type="text/css" href="{{ .RelPermalink }}">
-{{ end }}  */}}
-{{/*  {{ $opts := dict "transpiler" "libsass" "targetPath" "css/style.css" }}
-{{ $x := resources.Get "sass/site.sass" }}  */}}
 {{ $style := resources.Get "sass/site.sass" | toCSS }}
 <link href="{{ $style.RelPermalink }}" rel="stylesheet">
-{{/*  {{ with resources.Get "themes/peters-site/assets/sass/navbar.sass" | toCSS $opts | minify | fingerprint }}  */}}
-  {{/*  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-{{ end }}  */}}
+{{/*  {{ $fontawesome := resources.Get "fontawesome/css/all.css" }}  */}}
+<link href="/fontawesome/css/all.min.css" rel="stylesheet">
+{{/*  {{ $fontawesome_solid := resources.Get "fontawesome/css/solid.css" }}
+<link href="{{ $fontawesome_solid.RelPermalink }}" rel="stylesheet">  */}}
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
