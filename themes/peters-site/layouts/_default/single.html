@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container">
   <aside class="table-of-contents"></aside>
-  <div class="main wrapper-text">
+  <article class="main wrapper-text">
   <h1>{{ .Title }}</h1>
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
   {{ $dateHuman := .Date | time.Format ":date_long" }}
@@ -9,7 +9,7 @@
 
   {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-  </div>
+  </article>
   <nav class="table-of-contents">
     <h1>Table of Contents</h1>
     <ol>
@@ -19,34 +19,14 @@
       {{ if gt (len .Fragments.Headings) 0 }}
       {{ $toc_headings := (index .Fragments.Headings 0).Headings }}
       {{ range $toc_headings }}
+      {{ if eq .Level 2 }}
       <li><span>></span><a href="#{{ .ID }}">{{ .Title }}</a></li>
+      {{ end }}
       {{ end }}
       {{ end }}
     </ol>
   </nav>
-  <script>
-  document.addEventListener("scroll", function() {
-    const sections = document.querySelectorAll("h2[id]");
-    let currentSection = null;
-  
-    sections.forEach(section => {
-      const sectionTop = section.getBoundingClientRect().top;
-      if (sectionTop <= window.innerHeight / 2) {
-        currentSection = section;
-      }
-    });
-  
-    if (currentSection) {
-      const tocItems = document.querySelectorAll(".table-of-contents li");
-      tocItems.forEach(item => {
-        span = item.querySelector("span");
-        span.classList.remove("active");
-        if (item.querySelector("a").getAttribute("href") === `#${currentSection.id}`) {
-          span.classList.add("active");
-        }
-      });
-    }
-  });
-  </script>
+  {{ $toc_script := resources.Get "/js/table_of_contents.js" }}
+  <script src="{{ $toc_script.RelPermalink }}"></script>
 </div>
 {{ end }}
