@@ -23,29 +23,7 @@
     {{ end }}
   </ol>
 </nav>
-<script>
-document.addEventListener("scroll", function() {
-  const sections = document.querySelectorAll("h2[id]");
-  let currentSection = null;
-
-  sections.forEach(section => {
-    const sectionTop = section.getBoundingClientRect().top;
-    if (sectionTop <= window.innerHeight / 2) {
-      currentSection = section;
-    }
-  });
-
-  if (currentSection) {
-    const tocItems = document.querySelectorAll(".table-of-contents li");
-    tocItems.forEach(item => {
-      span = item.querySelector("span");
-      span.classList.remove("active");
-      if (item.querySelector("a").getAttribute("href") === `#${currentSection.id}`) {
-        span.classList.add("active");
-      }
-    });
-  }
-});
-</script>
+{{ $toc_script := resources.Get "/js/table_of_contents.js" }}
+<script src="{{ $toc_script.RelPermalink }}"></script>
 </div>
 {{ end }}
