@@ -28,22 +28,22 @@ I also interned at [Google Deepmind](https://www.deepmind.com/) in Summer and Fa
 
 ## Publications
 
-[Leveraging Cloud Computing to Make Autonomous Vehicles Safer](/data/papers/2023-iros-cloud-av-safety.pdf). \
+[Leveraging Cloud Computing to Make Autonomous Vehicles Safer](/papers/2023-iros-cloud-av-safety.pdf). \
 Peter Schafhalter, Sukrit Kalra, Le Xu, Joseph E. Gonzalez, Ion Stoica. *IROS 2023.* \
 \[[video](https://youtu.be/X3VuA_Tt064)\]
-\[[slides](/data/documents/iros-2023/2023-iros-cloud-avs-slides.pdf)\]
-\[[poster](/data/documents/iros-2023/2023-iros-cloud-avs-poster.pdf)\]
+\[[slides](/slides/2023-iros-cloud-avs-slides.pdf)\]
+\[[poster](/posters/2023-iros-cloud-avs-poster.pdf)\]
 \[[arxiv](https://arxiv.org/abs/2308.03204)]
 
 [Context-Aware Streaming Perception in Dynamic Environments](https://arxiv.org/pdf/2208.07479). \
 Gur-Eyal Sela, Ionel Gog, Justin Wong, Kumar Krishna Agrawal, Xiangxi Mo, Sukrit Kalra, Peter Schafhalter, Eric Leong, Xin Wang, Bharathan Balaji, Joseph Gonzalez, Ion Stoica. *ECCV 2022.* \
 \[[arxiv](https://arxiv.org/abs/2208.07479)\]
 
-[D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles](/data/papers/2022-eurosys-d3.pdf). \
+[D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles](/papers/2022-eurosys-d3.pdf). \
 Ionel Gog, Sukrit Kalra, Peter Schafhalter, Joseph E. Gonzalez, Ion Stoica. *EuroSys 2022.* \
 \[[code](https://github.com/erdos-project/erdos/)\] \[[acm](https://doi.org/10.1145/3492321.3519576)]
 
-[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](/data/papers/2021-icra-pylot.pdf). \
+[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](/papers/2021-icra-pylot.pdf). \
 Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.*
 **Best Unmanned Aerial Vehicles paper award finalist.** \
 \[[code](https://github.com/erdos-project/pylot/)\]
