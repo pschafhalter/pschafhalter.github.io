@@ -5,6 +5,9 @@ theme: peters-site
 markup:
   goldmark:
     extensions:
+      extras:
+        mark:
+          enable: true
       passthrough:
         enable: true
         delimiters:

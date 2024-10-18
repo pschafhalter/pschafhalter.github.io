@@ -3,6 +3,7 @@
 @import home
 @import navbar
 @import post
+@import project
 
 body
     margin: 0
@@ -24,12 +25,17 @@ body
     flex-grow: 1
     width: 80%
     max-width: $content-max-width
+    pre
+        overflow-x: auto
 
 .wrapper-text
     margin-top: 0.5em
 
 a
     color: darkblue
+
+mark
+    background-color: #FFFFC5
 
 .page-list li
     margin-bottom: 10px
@@ -58,15 +64,16 @@ a
             margin-bottom: 0.4em
             margin-left: 0.9em;
             text-indent: -0.9em;
+            transition: all 50ms ease-in-out;
             &:hover
-                text-decoration: underline
+               text-decoration: underline
             a
                 text-decoration: none
                 color: $text-color
-            span.active
-                visibility: visible
             span
                 visibility: hidden
+        li.active span
+            visibility: visible
 
 .footer
     display: flex
