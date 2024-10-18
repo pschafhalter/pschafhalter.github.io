@@ -30,13 +30,13 @@ Procedure segments that are nonself-modifying are considered *pure procedures*.
 Segments replace files; the *directory structure* associates at least one symbolic name with each segment.
 Symbolic names are invariant over all processes.
 
-![Virtual memory in a Multics process.](/data/pictures/posts/os_prelim/multics_directory_vm.png)
+![Virtual memory in a Multics process.](multics_directory_vm.png)
 
 ### Addressing
 
 A *generalized address* consisting of segment number and word number is used to identify words in the address space.
 
-![The generalized address.](/data/pictures/posts/os_prelim/multics_generalized_address.png)
+![The generalized address.](multics_generalized_address.png)
 
 A two-step hardware table look-up procedure is used to access memory.
 First, the use the segment number to index into the descriptor segment (known via the *descriptor base register*) to find the location of the desired segment.
@@ -49,7 +49,7 @@ void* desired_segment_address = descriptor_segment[segment_number];
 void* data_address = desired_segment_address + word_number;
 ```
 
-![Addressing by generalized address.](/data/pictures/posts/os_prelim/multics_addressing.png)
+![Addressing by generalized address.](multics_addressing.png)
 
 Multics supports *paging* for segments by providing the illusion of contiguous memory even if a segment consists of noncontiguous blocks of memory.
 Paging is desirable for large segments and is implemented via page tables stored in RAM.
@@ -68,7 +68,7 @@ This requires linking as the the system cannot safely assign a unique segment nu
 Thus, each procedure has an associated linkage section.
 Upon the first lookup of a symbolic name, the application traps and the system finds and sets the link data to the symbolic name's generalized address.
 
-![Linkage.](/data/pictures/posts/os_prelim/multics_linkage.png)
+![Linkage.](multics_linkage.png)
 
 ## Structure of a Program
 

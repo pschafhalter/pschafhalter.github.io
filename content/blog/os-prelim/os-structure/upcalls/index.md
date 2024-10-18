@@ -21,7 +21,7 @@ Upcalls are implemented in the prototype Swift OS.
 The ideas were motivated by applications in networking, but are part of a larger theme of service-based architectures which might be found in microkernels.
 Indeed, the paper is cited mostly by networking and kernel papers.
 
-![Upcalls design](/data/pictures/posts/os_prelim/upcalls_design.png)
+![Upcalls design](upcalls_design.png)
 
 The paper proposes a programming model of consisting of tasks and modules (layers). Modules perform a service (e.g. transport).
 They may consist of several functions that may run in parallel and shared state.
@@ -47,9 +47,9 @@ Tasks are a thread of execution. Each task may span several modules depending on
 
 The following example from the paper demonstrates how a remote login service may be implemented using upcalls. I've annotated the code to clearly show layers, state shared within a layer, invocations of other layers, upcalls, and interactions between tasks.
 
-![Upcalls code](/data/pictures/posts/os_prelim/upcalls_code_annotated.png)
+![Upcalls code](upcalls_code_annotated.png)
 
-![Upcalls code diagram](/data/pictures/posts/os_prelim/upcalls_code_diagram.png)
+![Upcalls code diagram](upcalls_code_diagram.png)
 
 ## Takeaways
 

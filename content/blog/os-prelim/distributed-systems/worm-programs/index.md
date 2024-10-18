@@ -19,7 +19,7 @@ A *segment* is an instance of the worm on particular machine.
 The paper lacks a security analysis of worms which is excusable considering that computers were not widespread, and the internet became public in 1991, 9 years later.
 The paper also mentions "good citizen behavior" (e.g. don't use a machine's local disk, use a protocol to ask if a machine is free, and clean up upon termination of a worm's segment).
 
-![Schematic of Several Multisegment Worm Programs](/data/pictures/posts/os_prelim/worm_programs_schematic.png)
+![Schematic of Several Multisegment Worm Programs](worm_programs_schematic.png)
 
 The worm is structured similarly to a modern virus:
 
