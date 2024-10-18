@@ -68,6 +68,6 @@ Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. G
 
 ## Service
 
-Reviewer: [ICRA 2024](https://2024.ieee-icra.org/).
+Reviewer: [ICRA 2024](https://2024.ieee-icra.org/), [IROS 2024](https://iros2024-abudhabi.org/), [ICLR 2025](https://iclr.cc/Conferences/2025)
 
 Co-author of the revised [UC Berkeley EECS Operating Systems Preliminary Exam Syllabus](https://ucbosprelim.samkumar.org/) (2023).
