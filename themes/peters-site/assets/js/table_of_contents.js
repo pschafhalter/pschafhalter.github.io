@@ -1,11 +1,10 @@
 // An ID activates when the heading is on-screen.
 // An ID deactivates when it is off-screen and another heading is on-screen.
-var active_on_screen = [];
-var active_off_screen = [];
 var active_queue = [];
+var last_id = null;
 let headingObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
-        let last_id = active_queue.length > 0 ? active_queue[active_queue.length - 1] : null;
+        last_id = active_queue.length > 0 ? active_queue[active_queue.length - 1] : null;
         if (entry.isIntersecting) {
             active_queue.push(entry.target.id);
         } else {
@@ -15,8 +14,6 @@ let headingObserver = new IntersectionObserver((entries, observer) => {
             }
         }
     });
-
-    if (active_queue.length == 0) active_queue.push(last_id);
 
     // clear all active headings
     document.querySelectorAll('.table-of-contents li').forEach((element) => {
@@ -30,6 +27,13 @@ let headingObserver = new IntersectionObserver((entries, observer) => {
             element.className = 'active';
         }
     });
+    if (active_queue.length == 0 && last_id !== null) {
+        var link = document.querySelector('.table-of-contents a[href="#' + last_id + '"]');
+        var element = link.parentElement;
+        if (element) {
+            element.className = 'active';
+        }
+    }
 }, {
     rootMargin: '0px',
     threshold: 0.99,
