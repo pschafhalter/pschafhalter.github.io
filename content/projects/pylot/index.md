@@ -3,34 +3,39 @@ title: "Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Au
 date: 2021-05-30
 url: /pylot
 layout: project
-authors:
-  - name: Ionel Gog
-    url: https://www.ionelgog.org/
-    first: true
-  - name: Sukrit Kalra
-    url: https://sukritkalra.github.io/
-    first: true
-  - name: Peter Schafhalter
-    url: /
-    first: true
-  - name: Matthew A. Wright
-    url: https://www.linkedin.com/in/mattawright/
-  - name: Joseph E. Gonzalez
-    url: https://people.eecs.berkeley.edu/~jegonzal/
-  - name: Ion Stoica
-    url: https://people.eecs.berkeley.edu/~istoica/
-organizations:
-  - name: UC Berkeley
-links:
-  - paper: /papers/2021-icra-pylot.pdf
-  - code: https://github.com/erdos-project/pylot/
-  - docs: https://pylot.readthedocs.io/
-  - video: https://www.youtube.com/watch?v=VlwhU0k5cmQ
+params:
+  authors:
+    - name: Ionel Gog
+      url: https://www.ionelgog.org/
+      first: true
+    - name: Sukrit Kalra
+      url: https://sukritkalra.github.io/
+      first: true
+    - name: Peter Schafhalter
+      url: /
+      first: true
+    - name: Matthew A. Wright
+      url: https://www.linkedin.com/in/mattawright/
+    - name: Joseph E. Gonzalez
+      url: https://people.eecs.berkeley.edu/~jegonzal/
+    - name: Ion Stoica
+      url: https://people.eecs.berkeley.edu/~istoica/
+  organizations:
+    - name: UC Berkeley
+  links:
+    - name: Paper
+      url: /papers/2021-icra-pylot.pdf
+    - name: Code
+      url: https://github.com/erdos-project/pylot/
+    - name: Docs
+      url: https://pylot.readthedocs.io/
+    - name: Video
+      url: https://www.youtube.com/watch?v=VlwhU0k5cmQ
 ---
 
 ### Rapidly test self-driving car models and algorithms.
 
-![Pylot Pipeline](asset-4.png "asdf")
+![Pylot Pipeline](asset-4.png "Pylot Pipeline")
 
 ## Overview
 
