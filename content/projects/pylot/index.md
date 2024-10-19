@@ -35,7 +35,7 @@ params:
 
 ### Rapidly test self-driving car models and algorithms.
 
-![Pylot Pipeline](asset-4.png "Pylot Pipeline")
+![Pylot Pipeline](pylot-pipeline.png "Pylot Pipeline")
 
 ## Overview
 
