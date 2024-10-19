@@ -9,21 +9,26 @@ main:
 socials:
   - name: Email
     url: "mailto:pschafhalter@berkeley.edu"
+    weight: 1
     params:
       icon: email
   - name: GitHub
     url: "https://github.com/pschafhalter"
+    weight: 2
     params:
       icon: github
   - name: Twitter
     url: "https://twitter.com/pschafhalter"
+    weight: 4
     params:
       icon: twitter
   - name: LinkedIn
     url: "https://www.linkedin.com/in/pschafhalter/"
+    weight: 3
     params:
       icon: linkedin
   - name: Google Scholar
     url: "https://scholar.google.com/citations?user=HhCZteMAAAAJ"
+    weight: 5
     params:
       icon: google-scholar
