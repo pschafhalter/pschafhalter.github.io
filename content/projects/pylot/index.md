@@ -3,6 +3,7 @@ title: "Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Au
 date: 2021-05-30
 url: /pylot
 layout: project
+summary: Rapidly test self-driving car models and algorithms.
 params:
   authors:
     - name: Ionel Gog
@@ -31,9 +32,9 @@ params:
       url: https://pylot.readthedocs.io/
     - name: Video
       url: https://www.youtube.com/watch?v=VlwhU0k5cmQ
+  venue: ICRA
+  note: Best Unmanned Aerial Vehicles paper award finalist.
 ---
-
-### Rapidly test self-driving car models and algorithms.
 
 ![Pylot Pipeline](pylot-pipeline.png "Pylot Pipeline")
 

@@ -5,6 +5,7 @@ url: /d3
 aliases:
   - /erdos
 layout: project
+summary: "Adjust response times and handle missed deadlines to maximize application-wide accuracy."
 params:
   authors:
     - name: Ionel Gog
@@ -28,9 +29,8 @@ params:
       url: https://docs.rs/erdos/
     - name: Docs | Python
       url: https://erdos.readthedocs.io/
+  venue: EuroSys
 ---
-
-### Adjust response times and handle missed deadlines to maximize application-wide accuracy.
 
 ![D3 Design](d3-design.png "D3 Design")
 

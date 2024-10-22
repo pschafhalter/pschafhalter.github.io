@@ -17,6 +17,7 @@
     {{ end }}
   </div>
 
+  <h3>{{ .Summary }}</h3>
 
   {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}

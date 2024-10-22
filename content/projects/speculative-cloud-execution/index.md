@@ -3,6 +3,7 @@ title: "Leveraging Cloud Computing to Make Autonomous Vehicles Safer"
 date: 2023-10-01
 url: /speculative-cloud-execution
 layout: project
+summary: Use the cloud to improve autonomous driving safety.
 params:
   authors:
     - name: Peter Schafhalter
@@ -25,9 +26,8 @@ params:
       url: /slides/2023-iros-cloud-avs-slides.pdf
     - name: Poster
       url: /posters/2023-iros-cloud-avs-poster.pdf
+  venue: IROS
 ---
-
-### Use the cloud to improve autonomous driving safety.
 
 ![Speculative Cloud Execution](speculative-cloud-execution.png "Speculative Cloud Execution")
 
