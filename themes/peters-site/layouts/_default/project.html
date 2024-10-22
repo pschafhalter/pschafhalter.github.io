@@ -9,7 +9,7 @@
   <a href="{{ $e.url }}" rel="author">{{ $e.name }}</a>{{ if $e.first }}*{{ end }}{{ end }}
   </div>
   <div class="organizations">
-  {{ range $i, $e := (.Param "organizations") }}{{ if $i }},{{ end }}{{ $e.name }}{{ end }}
+  {{ range $i, $e := (.Param "organizations") }}{{ if $i }}, {{ end }}{{ $e.name }}{{ end }}
   </div>
   <div class="links">
     {{ range .Param "links" }}
