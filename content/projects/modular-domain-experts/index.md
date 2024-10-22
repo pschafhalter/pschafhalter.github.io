@@ -3,12 +3,15 @@ title: Scalable Multi-Domain Adaptation of Language Models using Modular Experts
 date: 2024-10-14
 url: /modular-domain-experts
 layout: project
+summary: Train and compose modular experts to augment the capabilities of language models.
 params:
   authors:
     - name: Peter Schafhalter
       url: /
+      first: true
     - name: Shun Liao
       url: https://www.linkedin.com/in/shun-liao-51b081106/
+      first: true
     - name: Yanqi Zhou
       url: https://zhouyanqi.github.io/
     - name: Chih-Kuan Yeh
@@ -29,6 +32,21 @@ params:
 
 ## Overview
 
+- Adapting language models to multiple domains is critical to maximizing model
+  performance on complex tasks involving different capabilities.
+- Key metrics include performance on the target domains, retention of general
+  knowledge, and efficiency for training and inference.
+- We introduce ***Mo**dular **D**omain **E**xperts* (MoDE) which augment a
+  language model with modular, domain-specialized transformer layers that can
+  be independently trained.
+- MoDE experts can be composed improve a language model's performance on
+  multiple domains while demonstrating strong retention of the original model's
+  capabilities.
+- ==MoDE's performance scales well with the number of training examples and
+  added parameters, and enablesls flexible sharding configurations that
+  improve training speeds by up to 38%.==
+
+
 ## Abstract
 
 > Domain-specific adaptation is critical to maximizing the performance of
@@ -36,17 +54,17 @@ params:
 > especially under resource-constrained use cases, such as edge devices.
 > However, existing methods often struggle to balance domain-specific
 > performance, retention of general knowledge, and efficiency for training and
-> inference. To address these challenges, we propose Modular Domain Experts
-> (MoDE). MoDE is a mixture-of-experts architecture that augments a general PLMs
-> with modular, domain-specialized experts. These experts are trained
-> independently and composed together via a lightweight training process. In
-> contrast to standard low-rank adaptation methods, each MoDE expert consists of
-> several transformer layers which scale better with more training examples and
-> larger parameter counts. Our evaluation demonstrates that MoDE achieves
-> comparable target performances to full parameter fine-tuning while achieving
-> 1.65% better retention performance. Moreover, MoDE's architecture enables
-> flexible sharding configurations and improves training speeds by up to 38%
-> over state-of-the-art distributed training configurations. 
+> inference. To address these challenges, we propose ***Mo**dular **D**omain
+> **E**xperts* (MoDE). MoDE is a mixture-of-experts architecture that augments a
+> general PLMs with modular, domain-specialized experts. These experts are
+> trained independently and composed together via a lightweight training
+> process. In contrast to standard low-rank adaptation methods, each MoDE expert
+> consists of several transformer layers which scale better with more training
+> examples and larger parameter counts. Our evaluation demonstrates that MoDE
+> achieves comparable target performances to full parameter fine-tuning while
+> achieving 1.65% better retention performance. Moreover, MoDE's architecture
+> enables flexible sharding configurations and improves training speeds by up to
+> 38% over state-of-the-art distributed training configurations. 
 
 ## Cite
 
