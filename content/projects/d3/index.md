@@ -36,6 +36,19 @@ params:
 
 ## Overview
 
+- Autonomous Vehicles (AVs) must adjust their response times to react to 
+  changes in the driving environment, such as an obscured pedestrian emerging
+  from behind a parked car.
+- The environment further affects the processing time of the models and
+  algorithms used by AVs. For example, predicting the future
+  positions of vehicles and pedestrians at a busy intersection requires more
+  processing power than navigating an empty highway.
+- D3 provides abstractions to assign and manage deadlines across a pipeline,
+  and enables AVs to handle missed deadlines and adjust to changes in the
+  available processing time.
+- ==With D3, we observe a 68% reduction in collisions compared to existing
+  execution models across 50 km of challenging simulated driving scenarios.==
+
 ## Abstract
 
 > Autonomous vehicles (AVs) must drive across a variety of challenging
