@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="container">
+  <div class="main wrapper-text">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ $me := .Site.Param "me" }}
+  <ul class="projects-list">
+    {{ range .Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><br>
+      <em>{{ .Summary }}</em><br>
+      <span class="authors">
+        {{ range $i, $e := (.Param "authors") }}{{ if $i }},{{ end }}
+        {{ if (eq $e.name $me)}}<b>{{ end }}
+        {{ $e.name }}{{ if $e.first }}*{{ end }}{{ if (eq $e.name "Peter Schafhalter")}}</b>{{ end }}{{ end }}.
+      </span>
+      {{ if .Param "venue" }}<em>{{ .Param "venue" }} {{ .Date | time.Format "2006" }}</em>.{{ end }}
+      {{ if .Param "note" }}<b>{{ .Param "note" }}</b>{{ end }}
+      <br>
+      {{ range .Param "links" }}
+      [<a href="{{ .url }}">{{ .name }}</a>]
+      {{ end }}
+    </li>
+   {{ end }}
+  </ul>
+  <p>*These authors have made equal contributions.</p>
+</div>
+</div>
+{{ end }}

@@ -19,6 +19,7 @@ markup:
               - \)
 params:
   math: false
+  me: Peter Schafhalter
 menu:
   main:
     - name: Home
