@@ -27,6 +27,8 @@ params:
       url: /posters/2023-iros-cloud-avs-poster.pdf
 ---
 
+### Use the cloud to improve autonomous driving safety.
+
 ![Speculative Cloud Execution](speculative-cloud-execution.png "Speculative Cloud Execution")
 
 ## Overview
