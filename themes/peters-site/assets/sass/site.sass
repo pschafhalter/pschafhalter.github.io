@@ -33,7 +33,7 @@ body
 
 a
     text-decoration: none
-    color: #4444ff
+    color: #2222ff
     &:hover
         text-decoration: underline
 
@@ -95,9 +95,8 @@ blockquote
     align-items: center
 
 hr
-    color: #123455
-    background-color: #123455
-
+    border: 0
+    border-top: 1px solid #cccccc;
 
 .projects-list
     list-style-type: none
@@ -111,3 +110,10 @@ hr
     li
         margin: 1em 0 1em 0
         display: flex
+
+// Captions
+p
+    img + em
+        display: block
+        text-align: center
+        color: $text-color-light

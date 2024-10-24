@@ -33,7 +33,11 @@ params:
   icon: d3-icon.png
 ---
 
-![D3 Design](d3-design.png "D3 Design")
+![D3 Design](d3-design.png)
+*D3 centralizes time management through the **Deadline Policy**, which
+sets an end-to-end deadline and decomposes it into per-operator deadlines.
+Operators proactively try to meet their deadlines. However, if deadlines are
+missed, D3 executes reactive measures and adjusts downstream deadlines.*
 
 ## Overview
 
