@@ -30,6 +30,7 @@ params:
     - name: Docs | Python
       url: https://erdos.readthedocs.io/
   venue: EuroSys
+  icon: d3-icon.png
 ---
 
 ![D3 Design](d3-design.png "D3 Design")

@@ -27,6 +27,7 @@ params:
     - name: Poster
       url: /posters/2023-iros-cloud-avs-poster.pdf
   venue: IROS
+  icon: speculative-cloud-execution-icon.png
 ---
 
 ![Speculative Cloud Execution](speculative-cloud-execution.png "Speculative Cloud Execution")
