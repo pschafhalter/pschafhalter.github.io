@@ -34,6 +34,7 @@ params:
       url: https://www.youtube.com/watch?v=VlwhU0k5cmQ
   venue: ICRA
   note: Best Unmanned Aerial Vehicles paper award finalist.
+  icon: pylot-icon.png
 ---
 
 ![Pylot Pipeline](pylot-pipeline.png "Pylot Pipeline")

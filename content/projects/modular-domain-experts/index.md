@@ -26,6 +26,7 @@ params:
   links:
     - name: Paper
       url: /papers/2024-arxiv-modular-domain-experts.pdf
+  icon: modular-domain-experts-icon.png
 ---
 
 ![Modular Domain Experts](modular-domain-experts.png "Modular Domain Experts")

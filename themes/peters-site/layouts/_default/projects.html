@@ -6,7 +6,13 @@
   {{ $me := .Site.Param "me" }}
   <ul class="projects-list">
     {{ range .Pages }}
+    <hr>
     <li>
+      {{ $icon := .Resources.Get (.Param "icon") }}
+      <div class="icon-wrapper">
+        <img src="{{ $icon.RelPermalink}}" alt="{{ .Title }}" class="project-icon">
+      </div>
+      <div>
       <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><br>
       <em>{{ .Summary }}</em><br>
       <span class="authors">
@@ -20,6 +26,7 @@
       {{ range .Param "links" }}
       [<a href="{{ .url }}">{{ .name }}</a>]
       {{ end }}
+      </div>
     </li>
    {{ end }}
   </ul>
