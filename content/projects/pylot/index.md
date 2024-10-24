@@ -1,5 +1,6 @@
 ---
 title: "Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles"
+description: Pylot is an open-source, modular autonomous driving platform.
 date: 2021-05-30
 url: /pylot
 layout: project
