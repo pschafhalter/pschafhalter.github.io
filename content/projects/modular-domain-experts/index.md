@@ -29,7 +29,11 @@ params:
   icon: modular-domain-experts-icon.png
 ---
 
-![Modular Domain Experts](modular-domain-experts.png "Modular Domain Experts")
+![Modular Domain Experts](modular-domain-experts.png)
+*Modular Domain Experts consist of transformer layers and are trained
+independently on specific domains while preserving the backbone model's
+weights. Experts are composed to increase accuracy on multi-domain tasks via a
+lightweight fine-tuning step which improves downstream performance.*
 
 ## Overview
 

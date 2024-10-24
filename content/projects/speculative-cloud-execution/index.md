@@ -30,7 +30,12 @@ params:
   icon: speculative-cloud-execution-icon.png
 ---
 
-![Speculative Cloud Execution](speculative-cloud-execution.png "Speculative Cloud Execution")
+![Speculative Cloud Execution](speculative-cloud-execution.png)
+*With **Speculative Cloud Execution**, operators process inputs both in the
+cloud and locally. To ensure real-time execution, operators set a deadline for
+the responses from the cloud. At the deadline, operators maximize accuracy by
+generating their output using the available responses from the cloud and
+the results of local execution.*
 
 ## Overview
 

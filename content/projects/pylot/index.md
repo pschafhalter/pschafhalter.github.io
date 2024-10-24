@@ -37,7 +37,12 @@ params:
   icon: pylot-icon.png
 ---
 
-![Pylot Pipeline](pylot-pipeline.png "Pylot Pipeline")
+![Pylot Pipeline](pylot-pipeline.png)
+*Pylot provides reference implementations for the models and algorithms
+underpinning a state-of-the-art autonomous driving pipeline. For components
+with a green check mark, Pylot also provides "perfect" implementations which
+access ground-truth information from the simulator.*
+
 
 ## Overview
 

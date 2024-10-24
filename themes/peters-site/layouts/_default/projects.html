@@ -5,8 +5,9 @@
   {{ .Content }}
   {{ $me := .Site.Param "me" }}
   <ul class="projects-list">
-    {{ range .Pages }}
-    <hr>
+    {{ range $i, $p := .Pages }}
+    {{ if not (eq $i 0) }}<hr>{{ end }}
+    {{ with $p }}
     <li>
       {{ $icon := .Resources.Get (.Param "icon") }}
       <div class="icon-wrapper">
@@ -28,7 +29,8 @@
       {{ end }}
       </div>
     </li>
-   {{ end }}
+    {{ end }}
+    {{ end }}
   </ul>
   <p>*These authors have made equal contributions.</p>
 </div>
