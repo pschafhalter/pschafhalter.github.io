@@ -1,0 +1,153 @@
+- title: Scalable Multi-Domain Adaptation of Language Models using Modular Experts
+  date: 2025-04-02
+  url: /modular-domain-experts
+  authors:
+    - Peter Schafhalter*
+    - Shun Liao*
+    - Yanqi Zhou
+    - Chih-Kuan Yeh
+    - Arun Kandoor
+    - James Laudon
+  links:
+    - name: Website
+      url: /modular-domain-experts
+    - name: Paper
+      url: /papers/2024-arxiv-modular-domain-experts.pdf
+- title: "Bandwidth Allocation for Cloud-Connected Autonomous Driving"
+  url: /
+  date: 2025-04-01
+  note: Under submission, conference paper.
+  authors:
+    - Peter Schafhalter*
+    - Alexander Krentsel*
+    - Joseph E. Gonzalez
+    - Sylvia Ratnasamy
+    - Scott Shenker
+    - Ion Stoica
+- title: "MoE-Lightning: High-Throughput MoE Inference on Memory-Constrained GPUs"
+  url: /
+  date: 2025-03-30
+  venue: ASPLOS
+  authors:
+    - Shiyi Cao
+    - Shu Liu
+    - Tyler Griggs
+    - Peter Schafhalter
+    - Xiaoxuan Liu
+    - Ying Sheng
+    - Joseph E. Gonzalez
+    - Matei Zaharia
+    - Ion Stoica
+- title: "Managing Bandwidth: The Key to Cloud-Assisted Autonomous Driving"
+  url: /papers/2024-arxiv-managing-av-bandwidth.pdf
+  date: 2024-06-27
+  authors:
+    - Alexander Krentsel*
+    - Peter Schafhalter*
+    - Joseph E. Gonzalez
+    - Sylvia Ratnasamy
+    - Scott Shenker
+    - Ion Stoica
+  links:
+    - name: Paper
+      url: /papers/2024-arxiv-managing-av-bandwidth.pdf
+- title: "The Sky is the Limit: Cloud-Assisted Autonomous Driving via Service Tiers"
+  url: /papers/2024-compound-ai-systems-cloud-avs-service-tiers.pdf
+  date: 2024-06-13
+  venue: Compound AI Systems Workshop
+  authors:
+    - Alexander Krentsel
+    - Peter Schafhalter
+    - Joseph E. Gonzalez
+    - Sylvia Ratnasamy
+    - Scott Shenker
+    - Ion Stoica
+  links:
+    - name: Extended Abstract
+      url: /papers/2024-compound-ai-systems-cloud-avs-service-tiers.pdf
+    - name: Poster
+      url: /posters/2024-compound-ai-systems-cloud-avs-service-tiers-poster.pdf
+- title: "Leveraging Cloud Computing to Make Autonomous Vehicles Safer"
+  url: /speculative-cloud-execution
+  date: 2023-10-01
+  venue: IROS
+  authors:
+    - Peter Schafhalter
+    - Sukrit Kalra
+    - Le Xu
+    - Joseph E. Gonzalez
+    - Ion Stoica
+  links:
+    - name: Website
+      url: /speculative-cloud-execution
+    - name: Paper
+      url: /papers/2023-iros-cloud-av-safety.pdf
+    - name: Slides
+      url: /slides/2023-iros-cloud-avs-slides.pdf
+    - name: Poster
+      url: /posters/2023-iros-cloud-avs-poster.pdf
+- title: Context-Aware Streaming Perception in Dynamic Environments
+  url: /papers/2022-eccv-context-aware-streaming.pdf
+  date: 2022-10-23
+  authors:
+    - Gur-Eyal Sela
+    - Ionel Gog
+    - Justin Wong
+    - Kumar Krishna Agrawal
+    - Xiangxi Mo
+    - Sukrit Kalra
+    - Peter Schafhalter
+    - Eric Leong
+    - Xin Wang
+    - Bharathan Balaji
+    - Joseph Gonzalez
+    - Ion Stoica
+  links:
+    - name: Paper
+      url: /papers/2022-eccv-context-aware-streaming.pdf
+    - name: Code
+      url: https://github.com/EyalSel/Contextual-Streaming-Perception
+- title: "D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles"
+  url: /d3
+  date: 2022-04-05
+  authors:
+    - Ionel Gog
+    - Sukrit Kalra
+    - Peter Schafhalter
+    - Joseph E. Gonzalez
+    - Ion Stoica
+  links:
+    - name: Website
+      url: /d3
+    - name: Paper
+      url: /papers/2022-eurosys-d3.pdf
+    - name: Code
+      url: https://github.com/erdos-project/erdos/
+    - name: Docs | Rust
+      url: https://docs.rs/erdos/
+    - name: Docs | Python
+      url: https://erdos.readthedocs.io/
+  venue: EuroSys
+- title: "Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles"
+  url: /pylot
+  date: 2021-05-30
+  authors:
+    - Ionel Gog*
+    - Sukrit Kalra*
+    - Peter Schafhalter*
+    - Matthew A. Wright
+    - Joseph E. Gonzalez
+    - Ion Stoica
+  links:
+    - name: Website
+      url: /pylot
+    - name: Paper
+      url: /papers/2021-icra-pylot.pdf
+    - name: Code
+      url: https://github.com/erdos-project/pylot/
+    - name: Docs
+      url: https://pylot.readthedocs.io/
+    - name: Video
+      url: https://www.youtube.com/watch?v=VlwhU0k5cmQ
+  venue: ICRA
+  note: Best Unmanned Aerial Vehicles paper award finalist.

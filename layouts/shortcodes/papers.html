@@ -1,0 +1,31 @@
+<ul class="papers-list">
+{{ range .Site.Data.papers }}
+  <li class="paper">
+    <div class="paper-title">
+      <strong><a href="{{ .url }}">{{ .title }}</a></strong>
+    </div>
+    <span class="paper-authors">
+      {{ range $i, $a := .authors }}{{ if $i }},{{ end }}
+        {{ $me_co_first := printf "%s*" $.Site.Params.me }}
+        {{ $is_me := or (eq $a $.Site.Params.me) (eq $a $me_co_first)}}
+        {{ if $is_me }}<b>{{ end }}
+        {{ $a }}{{ if $is_me }}</b>{{ end }}{{ end }}.
+        </span>
+    {{ if .venue}}
+    <em class="paper-venue">
+      {{ .venue }} {{ .date | time.Format "2006" }}.
+    </em>
+    {{ end }}
+    {{ if .note }}
+    <b class="paper-note">
+      {{ .note }}
+    </b>
+    {{ end }}
+    <div id="paper-links">
+      {{ range .links }}
+      [<a href="{{ .url }}">{{ lower .name }}</a>]
+      {{ end }}
+    </div>
+  </li>
+{{ end }}
+</ul>

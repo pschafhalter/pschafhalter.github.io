@@ -2,8 +2,9 @@
 profile_picture: images/profile.png
 ---
 
-I'm a PhD student working on self-driving cars at the UC Berkeley
-[RISELab](https://rise.cs.berkeley.edu/),
+I'm a PhD student working on AI systems at the UC Berkeley
+[Sky Computing Lab](https://sky.cs.berkeley.edu/)
+(previously [RISELab](https://rise.cs.berkeley.edu/)),
 where I'm advised by
 [Professor Ion Stoica](https://people.eecs.berkeley.edu/~istoica/)
 and
@@ -23,38 +24,21 @@ Previously, I contributed to several successful open-source projects:
 - [Ray](https://ray.io/) is a popular framework for developing distributed applications.
 - [Modin](http://modin.org/) scales pandas workflows to terabytes.
 
-I also interned at [Google Deepmind](https://www.deepmind.com/) in Summer and Fall 2023.
+I was fortunate to intern at [Google Deepmind](https://deepmind.google/) in
+2023 where I focused on sparse computation and
+[modularity in language models](/modular-domain-experts).
 
 
 ## Publications
 
-[Leveraging Cloud Computing to Make Autonomous Vehicles Safer](/papers/2023-iros-cloud-av-safety.pdf). \
-Peter Schafhalter, Sukrit Kalra, Le Xu, Joseph E. Gonzalez, Ion Stoica. *IROS 2023.* \
-\[[video](https://youtu.be/X3VuA_Tt064)\]
-\[[slides](/slides/2023-iros-cloud-avs-slides.pdf)\]
-\[[poster](/posters/2023-iros-cloud-avs-poster.pdf)\]
-\[[arxiv](https://arxiv.org/abs/2308.03204)]
-
-[Context-Aware Streaming Perception in Dynamic Environments](https://arxiv.org/pdf/2208.07479). \
-Gur-Eyal Sela, Ionel Gog, Justin Wong, Kumar Krishna Agrawal, Xiangxi Mo, Sukrit Kalra, Peter Schafhalter, Eric Leong, Xin Wang, Bharathan Balaji, Joseph Gonzalez, Ion Stoica. *ECCV 2022.* \
-\[[arxiv](https://arxiv.org/abs/2208.07479)\]
-
-[D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles](/papers/2022-eurosys-d3.pdf). \
-Ionel Gog, Sukrit Kalra, Peter Schafhalter, Joseph E. Gonzalez, Ion Stoica. *EuroSys 2022.* \
-\[[code](https://github.com/erdos-project/erdos/)\] \[[acm](https://doi.org/10.1145/3492321.3519576)]
-
-[Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles](/papers/2021-icra-pylot.pdf). \
-Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. Gonzalez, Ion Stoica. *ICRA 2021.*
-**Best Unmanned Aerial Vehicles paper award finalist.** \
-\[[code](https://github.com/erdos-project/pylot/)\]
-\[[video](https://www.youtube.com/watch?v=VlwhU0k5cmQ)\]
-\[[website](https://pylot.readthedocs.io/)\]
-\[[ieee](https://doi.org/10.1109/ICRA48506.2021.9561747)\]
-\[[arxiv](https://arxiv.org/abs/2104.07830)\]
+{{< papers >}}
 
 \* These authors have made equal contributions.
 
-## Talks
+## Selected Talks
+
+[Towards Cloud-Driven Autonomous Vehicles.](/slides/2024-sky-summer-retreat-cloud-avs.pdf) *Sky 2024 Summer Retreat*. \
+\[[slides](/slides/2024-sky-summer-retreat-cloud-avs.pdf)]
 
 [Building Autonomous Vehicles: From the Road to the Sky.](https://youtu.be/sksQWdXTY5Y) *Sky 2022 Summer Retreat*. \
 \[[slides](https://docs.google.com/presentation/d/1lxZq0hFuDlrsf06rDqNXDbkOsH-K7IvS)\]
@@ -68,6 +52,6 @@ Ionel Gog\*, Sukrit Kalra\*, Peter Schafhalter\*, Matthew A. Wright, Joseph E. G
 
 ## Service
 
-Reviewer: [ICRA 2024](https://2024.ieee-icra.org/), [IROS 2024](https://iros2024-abudhabi.org/), [ICLR 2025](https://iclr.cc/Conferences/2025)
+Reviewer: [ICRA 2024](https://2024.ieee-icra.org/), [IROS 2024](https://iros2024-abudhabi.org/), [ICLR 2025](https://iclr.cc/Conferences/2025).
 
-Co-author of the revised [UC Berkeley EECS Operating Systems Preliminary Exam Syllabus](https://ucbosprelim.samkumar.org/) (2023).
+Co-author of the [UC Berkeley EECS Operating Systems Preliminary Exam Syllabus](https://ucbosprelim.samkumar.org/) (2023).
