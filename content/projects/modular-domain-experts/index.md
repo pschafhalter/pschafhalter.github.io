@@ -54,9 +54,9 @@ lightweight fine-tuning step which improves downstream performance.*
 - MoDE experts can be composed improve a language model's performance on
   multiple domains while demonstrating strong retention of the original model's
   capabilities.
-- ==MoDE's performance scales well with the number of training examples and
-  added parameters, and enablesls flexible sharding configurations that
-  improve training speeds by up to 38%.==
+- ==MoDE's performance scales with the number of training examples and added
+  parameters, and enablesls flexible sharding configurations that improve
+  training speeds by up to 38%.==
 
 
 ## Abstract
