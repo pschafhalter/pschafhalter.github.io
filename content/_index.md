@@ -2,7 +2,7 @@
 title: Peter Schafhalter
 profile_picture: images/profile.png
 description: >
-    Welcome to the personal website of Peter Schafhalter, a PhD student at UC Berkeley specializing in AI systems. Explore his research, publications, and contributions to open-source projects in the field of autonomous vehicles, distributed computing, and language models.
+    Peter Schafhalter is a PhD student at UC Berkeley specializing in AI systems. Explore his research, publications, and contributions to open-source projects in the field of autonomous vehicles, distributed computing, and language models.
 keywords:
     - Peter Schafhalter
     - AI systems
