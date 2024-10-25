@@ -3,6 +3,13 @@ title: Scalable Multi-Domain Adaptation of Language Models using Modular Experts
 date: 2024-10-14
 url: /modular-domain-experts
 layout: project
+description: Enhance language models by leveraging independently trained, domain-specific experts.
+keywords:
+  - language models
+  - mixture of experts
+  - modular experts
+  - modular domain experts
+  - domain experts
 summary: Train and compose modular experts to augment the capabilities of language models.
 params:
   authors:

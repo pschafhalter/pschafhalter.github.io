@@ -4,6 +4,26 @@ date: 2023-10-01
 url: /speculative-cloud-execution
 layout: project
 summary: Use the cloud to improve autonomous driving safety.
+description:  Leveraging cloud computing can enhance the safety of autonomous vehicles by improving decision accuracy and reliability. Our research explores speculative execution techniques to seamlessly integrate cloud resources with on-board systems, ensuring optimal performance even under unreliable network conditions.
+keywords:
+  - autonomous vehicles
+  - cloud computing
+  - speculative execution
+  - speculative cloud execution
+  - AV safety
+  - real-time processing
+  - edge AI
+  - edge inference
+  - network reliability
+  - computational offloading
+  - intelligent transportation systems
+  - IROS 2023
+  - autonomous driving research
+  - edge computing
+  - vehicular networks
+  - AV decision accuracy
+  - cloud integration
+  - safety enhancement
 params:
   authors:
     - name: Peter Schafhalter
