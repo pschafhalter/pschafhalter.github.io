@@ -1,6 +1,14 @@
 ---
 title: "Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles"
-description: Pylot is an open-source, modular autonomous driving platform.
+description: Pylot is an open-source platform designed for autonomous vehicle research. Pylot allows researchers to test and optimize self-driving car models, focusing on latency-accuracy tradeoffs and offers a modular pipeline and state-of-the-art tools.
+keywords:
+  - autonomous vehicles
+  - autonomous driving
+  - self-driving cars
+  - modular platform
+  - latency-accuracy tradeoffs
+  - autonomous driving research
+  - open-source
 date: 2021-05-30
 url: /pylot
 layout: project

@@ -6,6 +6,20 @@ aliases:
   - /erdos
 layout: project
 summary: "Adjust response times and handle missed deadlines to maximize application-wide accuracy."
+description: "D3 is a cutting-edge system designed to enhance the safety and efficiency of autonomous vehicles by dynamically managing deadlines and adjusting computations in real-time. Developed by researchers at UC Berkeley, D3 significantly reduces collision rates in challenging driving scenarios."
+keywords:
+  - autonomous driving
+  - self-driving cars
+  - autonomous vehicles
+  - autonomous driving research
+  - execution model
+  - dynamic deadline-driven
+  - dynamic deadlines
+  - dataflow
+  - real-time systems
+  - safety-critical systems
+  - computational efficiency
+  - adaptive systems
 params:
   authors:
     - name: Ionel Gog
