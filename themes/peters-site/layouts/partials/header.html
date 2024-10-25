@@ -1,0 +1,20 @@
+<div class="navbar">
+  <nav class="wrapper navbar-table">
+    <div id="page-title" class="navbar-item">
+      <a href="/">{{ site.Title }}</a>
+    </div>
+    {{/*  {% for item in site.data.navigation %}  */}}
+    {{ $current_page := print .RelPermalink }}
+
+    {{ range .Site.Menus.main }}
+    <div class="navbar-item">
+      {{ if eq $current_page .URL }}<b>{{ end }}
+      <a href="{{ .URL }}">
+        {{ $text := print .Name | safeHTML }}
+        {{ $text }}
+      </a>
+      {{ if eq $current_page .URL }}</b>{{ end }}
+    </div>
+    {{ end }}
+  </nav>
+</div>

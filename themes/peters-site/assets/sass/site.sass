@@ -1,0 +1,119 @@
+@import constants
+@import blog
+@import home
+@import navbar
+@import post
+@import project
+
+body
+    margin: 0
+    background-color: #fafafa
+    color: $text-color
+    font-family: Helvetica,sans-serif
+    font-size: 1.1em
+    line-height: 1.5
+
+.container
+    display: flex
+    flex-direction: row
+    justify-content: center
+    margin: auto auto
+    padding-left: 50px
+    padding-right: 50px
+
+.main
+    flex-grow: 1
+    width: 80%
+    max-width: $content-max-width
+    pre
+        overflow-x: auto
+
+.wrapper-text
+    margin-top: 0.5em
+
+a
+    text-decoration: none
+    color: #2222ff
+    &:hover
+        text-decoration: underline
+
+mark
+    background-color: #FFFFC5
+    padding: .2em
+
+blockquote
+    border-left-color: #CCCCCC
+    border-left-style: solid
+    border-left-width: .25em
+    padding: 0 1em
+    margin-top: 0
+    margin-bottom: 0
+    margin-right: 0
+    margin-left: 0
+
+.page-list li
+    margin-bottom: 10px
+
+.table-of-contents
+    max-width: 200px
+    align-self: start
+    position: sticky
+    margin-top: 3em
+    margin-left: 3em
+    flex-grow: 1
+    top: 3em
+    display: flex
+    flex-direction: column
+    @media (max-width: 1000px)
+        display: none
+    h1
+        font-size: 1em
+        margin: 0em
+    ol
+        margin-top: 0.3em
+        list-style: none
+        padding-left: 0.5em
+        li
+            margin-top: 0.4em
+            margin-bottom: 0.4em
+            margin-left: 0.9em;
+            text-indent: -0.9em;
+            transition: all 50ms ease-in-out;
+            &:hover
+               text-decoration: underline
+            a
+                text-decoration: none
+                color: $text-color
+            span
+                visibility: hidden
+        li.active span
+            visibility: visible
+
+.footer
+    display: flex
+    justify-content: center
+    align-items: center
+
+hr
+    border: 0
+    border-top: 1px solid #cccccc;
+
+.projects-list
+    list-style-type: none
+    padding: 0
+    margin: 0
+    .icon-wrapper
+        display: flex
+        align-items: center
+        max-width: 4em
+        margin-right: 1em
+    li
+        margin: 1em 0 1em 0
+        display: flex
+
+// Captions
+p
+    img + em
+        display: block
+        text-align: center
+        color: $text-color-light

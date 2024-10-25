@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="container">
+  <aside class="table-of-contents"></aside>
+  <div class="main wrapper-text">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages.GroupByDate "2006" }}
+  <h2 id="{{ .Key }}">{{ .Key }}</h2>
+  <ul class="page-list">
+    {{ range .Pages }}
+    <li>
+      <b><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></b>&nbsp;&nbsp;|&nbsp;&nbsp;<i>{{ .Date | time.Format "Jan 2" }}</i>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>
+<nav class="table-of-contents">
+  <h1>Table of Contents</h1>
+  <ol>
+    {{ range .Pages.GroupByDate "2006" }}
+    <li><span>></span><a href="#{{ .Key }}">{{ .Key }}</a></li>
+    {{ end }}
+  </ol>
+</nav>
+{{ $toc_script := resources.Get "/js/table_of_contents.js" }}
+<script src="{{ $toc_script.RelPermalink }}"></script>
+</div>
+{{ end }}

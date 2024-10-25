@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="container">
+  <aside class="table-of-contents"></aside>
+  <article class="main wrapper-text">
+  <h1>{{ .Title }}</h1>
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <i><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></i>
+
+  {{ .Content }}
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </article>
+  <nav class="table-of-contents">
+    <h1>Table of Contents</h1>
+    <ol>
+      {{ if gt (len .Fragments.Headings) 1 }}
+      {{ warnf "%s has %d h1 headings which may break the table of contents" .Page.Title (len .Fragments.Headings) }}
+      {{ end }}
+      {{ if gt (len .Fragments.Headings) 0 }}
+      {{ $toc_headings := (index .Fragments.Headings 0).Headings }}
+      {{ range $toc_headings }}
+      {{ if eq .Level 2 }}
+      <li><span>></span><a href="#{{ .ID }}">{{ .Title }}</a></li>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+    </ol>
+  </nav>
+  {{ $toc_script := resources.Get "/js/table_of_contents.js" }}
+  <script src="{{ $toc_script.RelPermalink }}"></script>
+</div>
+{{ end }}

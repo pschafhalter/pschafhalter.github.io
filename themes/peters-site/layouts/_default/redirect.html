@@ -1,0 +1,6 @@
+{{ .Content }}
+
+{{ if .Param "redirect_url" }}
+{{ $redirect_url := (.Param "redirect_url") }}
+<meta http-equiv="Refresh" content="0; url='{{ $redirect_url }}'" />
+{{ end }}

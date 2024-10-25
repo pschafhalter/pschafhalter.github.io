@@ -1,0 +1,27 @@
+baseURL: "https://pschafhalter.com/"
+languageCode: en-us
+title: Peter Schafhalter
+theme: peters-site
+markup:
+  goldmark:
+    extensions:
+      extras:
+        mark:
+          enable: true
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+services:
+  googleAnalytics:
+    ID: G-H32NQVLDYK
+params:
+  math: false
+  me: Peter Schafhalter'
+  social:
+    twitter: pschafhalter

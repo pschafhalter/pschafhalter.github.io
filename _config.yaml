@@ -1,5 +1,0 @@
-title: "Peter Schafhalter"
-
-exclude:
-  - Makefile
-  - Gemfile*

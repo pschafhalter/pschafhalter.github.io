@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="container">
+  <aside class="table-of-contents"></aside>
+
+  <article class="main wrapper-text project">
+  <h1>{{ .Title }}</h1>
+  <div class="authors">
+  {{ range $i, $e := (.Param "authors") }}{{ if $i }},{{ end }}
+  <a href="{{ $e.url }}" rel="author">{{ $e.name }}</a>{{ if $e.first }}*{{ end }}{{ end }}
+  </div>
+  <div class="organizations">
+  {{ range $i, $e := (.Param "organizations") }}{{ if $i }}, {{ end }}{{ $e.name }}{{ end }}
+  </div>
+  <div class="links">
+    {{ range .Param "links" }}
+    <a href="{{ .url }}" class="button" role="button">{{ .name }}</a>
+    {{ end }}
+  </div>
+
+  <h3>{{ .Summary }}</h3>
+
+  {{ .Content }}
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </article>
+
+  <nav class="table-of-contents">
+    <h1>Table of Contents</h1>
+    <ol>
+      {{ if gt (len .Fragments.Headings) 1 }}
+      {{ warnf "%s has %d h1 headings which may break the table of contents" .Page.Title (len .Fragments.Headings) }}
+      {{ end }}
+      {{ if gt (len .Fragments.Headings) 0 }}
+      {{ $toc_headings := (index .Fragments.Headings 0).Headings }}
+      {{ range $toc_headings }}
+      {{ if eq .Level 2 }}
+      <li><span>></span><a href="#{{ .ID }}">{{ .Title }}</a></li>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+    </ol>
+  </nav>
+  {{ $toc_script := resources.Get "/js/table_of_contents.js" }}
+  <script src="{{ $toc_script.RelPermalink }}"></script>
+</div>
+{{ end }}
