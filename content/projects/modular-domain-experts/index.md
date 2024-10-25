@@ -55,7 +55,7 @@ lightweight fine-tuning step which improves downstream performance.*
   multiple domains while demonstrating strong retention of the original model's
   capabilities.
 - ==MoDE's performance scales with the number of training examples and added
-  parameters, and enablesls flexible sharding configurations that improve
+  parameters, and enables flexible sharding configurations that improve
   training speeds by up to 38%.==
 
 
