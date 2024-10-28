@@ -44,8 +44,8 @@ Previously, I contributed to several successful open-source projects:
 - [Ray](https://ray.io/) is a popular framework for developing distributed applications.
 - [Modin](http://modin.org/) scales pandas workflows to terabytes.
 
-In 2023, I interned at [Google Deepmind](https://deepmind.google/)
-with the Pathways Team, where I focused on sparse computation and
+I interned at [Google Deepmind](https://deepmind.google/)
+with the Pathways Team in 2023, where I focused on sparse computation and
 [modularity in language models](/modular-domain-experts).
 
 
