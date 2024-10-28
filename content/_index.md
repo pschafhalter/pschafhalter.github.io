@@ -32,7 +32,7 @@ and
 
 I'm interested in how techniques from computer systems can make
 self-driving cars safer and more reliable.
-To that effect, I've helped build 2 open-source software projects:
+To that effect, I've co-designed 2 open-source software projects:
 
 - [ERDOS](https://github.com/erdos-project/erdos/) is a dataflow system
 for building self-driving car and robotics applications.
@@ -44,8 +44,8 @@ Previously, I contributed to several successful open-source projects:
 - [Ray](https://ray.io/) is a popular framework for developing distributed applications.
 - [Modin](http://modin.org/) scales pandas workflows to terabytes.
 
-I was fortunate to intern at [Google Deepmind](https://deepmind.google/) in
-2023 where I focused on sparse computation and
+In 2023, I interned at [Google Deepmind](https://deepmind.google/)
+with the Pathways Team, where I focused on sparse computation and
 [modularity in language models](/modular-domain-experts).
 
 
