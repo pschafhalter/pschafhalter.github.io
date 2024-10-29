@@ -34,9 +34,9 @@ I'm interested in how techniques from computer systems can make
 self-driving cars safer and more reliable.
 To that effect, I've co-designed 2 open-source software projects:
 
-- [ERDOS](https://github.com/erdos-project/erdos/) is a dataflow system
+- [ERDOS](/d3) is a dataflow system
 for building self-driving car and robotics applications.
-- [Pylot](https://github.com/erdos-project/pylot/) is a modular self-driving car
+- [Pylot](/pylot) is a modular self-driving car
 platform that runs on both real cars and in simulation.
 
 Previously, I contributed to several successful open-source projects:
