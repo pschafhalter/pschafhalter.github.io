@@ -25,7 +25,7 @@
     - Scott Shenker
     - Ion Stoica
 - title: "MoE-Lightning: High-Throughput MoE Inference on Memory-Constrained GPUs"
-  url: /
+  url: /moe-lightning
   date: 2025-03-30
   venue: ASPLOS
   authors:
@@ -38,6 +38,13 @@
     - Joseph E. Gonzalez
     - Matei Zaharia
     - Ion Stoica
+  links:
+    - name: Website
+      url: /moe-lightning
+    - name: Paper
+      url: /papers/2025-asplos-moe-lightning.pdf
+    - name: Code
+      url: https://github.com/caoshiyi/FastMoE
 - title: "Managing Bandwidth: The Key to Cloud-Assisted Autonomous Driving"
   url: /papers/2024-arxiv-managing-av-bandwidth.pdf
   date: 2024-06-27
