@@ -41,7 +41,7 @@ params:
       url: https://github.com/caoshiyi/FastMoE
 ---
 
-![CGOPipe Schedule](cgopipe.gif)
+![CGOPipe Schedule](cgopipe.webp)
 *MoE-Lightning introduces the **CGOPipe** pipelining schedule which
 (1) performs attention on CPU, (2) overlaps CPU and GPU computation,
 and (3) applies weights paging to increase throughput for mixture of
