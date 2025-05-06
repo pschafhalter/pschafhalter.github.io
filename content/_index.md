@@ -2,7 +2,7 @@
 title: Peter Schafhalter
 profile_picture: images/profile.png
 description: >
-    Peter Schafhalter is a PhD student at UC Berkeley specializing in AI systems. Explore his research, publications, and contributions to open-source projects in the field of autonomous vehicles, distributed computing, and language models.
+    Peter Schafhalter is a Member of the Technical Staff at Microsoft AI with a background in AI systems. Explore his research, publications, and contributions to open-source projects in the field of autonomous vehicles, distributed computing, and language models.
 keywords:
     - Peter Schafhalter
     - AI systems
@@ -22,10 +22,11 @@ keywords:
     - language models
 ---
 
-I'm a PhD student working on AI systems at the UC Berkeley
+I'm a Member of the Technical Staff at Microsoft AI.
+Before joining Microsoft, I pursued a PhD in AI systems at the UC Berkeley
 [Sky Computing Lab](https://sky.cs.berkeley.edu/)
 (previously [RISELab](https://rise.cs.berkeley.edu/)),
-where I'm advised by
+where I was advised by
 [Professor Ion Stoica](https://people.eecs.berkeley.edu/~istoica/)
 and
 [Professor Joseph Gonzalez](https://people.eecs.berkeley.edu/~jegonzal/).
